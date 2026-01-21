@@ -1,0 +1,226 @@
+{"position":{ "x": 250, "y": 350 },
+"notebook": [
+  "Lateral reading: is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Source evaluation: Look to see if someone else has already fact-checked the claim. Go to the original source to understand the trustworthiness of the information.",
+  "",
+  "Dr. Green is using these two potions - Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, for aiding sleep.",
+  "Dr. Green is staying here with his daughter for sabbatical. His daughter's birthday is on 09/05. It seems there is something wrong with his daughter though...",
+  "It seems to be Alina's bedroom. Was she sick? And what is the thing that Dr. Green was developing? Is it truly an immortality potion?"
+],
+"notehead":["What I learned...", 
+"What I learned...",
+"What I learned...",
+"",
+"About Potions...",
+"About Dr. Green...",
+"Where am I..."],
+"bgm" : 0,
+  "clueList":[ {
+    "clueIdx": 1,
+    "imageSource": ".images/chest.png",
+    "clueOccupyList":[1, 4, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"Need the true cure and enter the passcode (4 digits):",
+    "clueDetail":"You can find the rest of the pages in the safe. They should be able to convince the villagers.",
+    "clueType":"passwordchest",
+    "ifTrue": 0,
+    "sound" : "lockedChest"
+
+  },
+  {
+    "clueIdx": 2,
+    "imageSource": "./images/lostBook.png",
+    "clueOccupyList":[8, 3, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"《Think like a Scientist 101》",
+    "clueDetail":"Information literacy is a set of abilities requiring individuals to recognize when information is needed and have the ability to locate, evaluate, and use effectively the needed information. Think about:<br><u>Time Lines</u>: <br>Truth is always changing. consider the publication date and whether the information is up-to-date and relevant now.<br><u>Source Credibility</u>: assess the reputation, authority, and qualifications of the sources, as well as any potential conflicts of interest.",
+    "clueType":"clue",
+    "ifTrue": 0,
+    "sound" : "clue_page"
+
+  },
+
+  {
+  "clueIdx": 3,
+  "imageSource": "./images/scroll1.png",
+  "clueOccupyList":[-1, -1, -1, -1],
+  "tileSize" :"",
+  "clueInfo":"You found a notebook in the chest. It is the working records of Dr. Green.",
+  "clueDetail":"I don't know why the villagers thought Lifespring is a medicine for immortality. That's funny because I create this medicine trying to save my daugter from the Insomnia. Maybe this record could clear their doubts. I must publish it somehow...<br><br>(---I understand now, those people who are gathering upstairs are comming for the medicine. I can use this notebook to convince them so they will leave and so can I.)",
+  "clueType":"key",
+  "ifTrue": 0,
+  "sound" : "clue_page"
+
+  },
+  {
+    "clueIdx": 4,
+    "imageSource": "./images/AlinaDiary.png",
+    "clueOccupyList":[5, 4, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"There is a diary under the bed.",
+    "clueDetail":{
+      "08/18/2010":"I usually do not keep a diary, but I can not sleep today so I decided to write it now. ",
+      "08/22/2010":"Dad says there is a medicine might help me fall asleep. I hope that would work because I have not slept for days. Dad says it is called Lifespring. I like the name of it.",
+      "08/24/2010": "I made a new friend today. His name is Bear.",
+      "09/05/2010" :"It is my birthday today, but dad is so busy with his thing. Bear says we should steal the potion and stop him from working, so he can spend time with me. I refused but Bear did it anyway. I locked the pages into my safe, using the code I saw on the bottle."
+    },
+    "clueType":"database",
+    "ifTrue": 0,
+    "sound" : "clue_page"
+
+  },
+  {
+    "clueIdx": 5,
+    "imageSource": "",
+    "clueOccupyList":[5, 7.8, 1, 1],
+    "tileSize" :"",
+    "clueInfo": "This is the door to the hallway.",
+    "clueDetail":"There must be clues here that can help me understand what is going on outside. ",
+    "clueType":"hallway",
+    "ifTrue": 0,
+    "sound" : "openDoor"
+
+  },
+  {
+    "clueIdx": 6,
+    "imageSource": "",
+    "clueOccupyList":[6, 4, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"This seems to be Dr.Green's diary, but the last a few pages are missing.",
+    "clueDetail":{
+      "08/22/2010":"Alina can finally fall asleep now after I gave her the Lifespring. But I am worried about the side effects.",
+      "08/25/2010":"Alina takes Lifespring everyday, but her sleeping hours are getting shorter and shorter. I am afraid it will stop working in a few days.",
+      "09/05/2010": "Today I acciedentally mixed the Infinity and Lifespring. The new potion displays some characteristics that can overcome the obstales! I put on a label and mark it as A2125, since it is the combination of the two. I hope this will work. <br>I also need to wirte something for Ms.White so she can publish it and the villagers would stop believing I am making some kind of immortality drugs. Actually, I will just write here now so I do not forget.......<br> The rest of the pages were missing."
+      
+    },
+    "clueType":"database",
+    "ifTrue": 0,
+    "sound" : "clue_page"
+  },
+  {
+    "clueIdx": 7,
+    "imageSource": "./images/A2125.png",
+    "clueOccupyList":[3, 3, 1, 1],
+    "tileSize" :"",
+    "clueInfo": "It's a dressing table. A mysterious bottle is inside.",
+    "clueDetail":"The bottle has purple fluid in it. The label is hard to read.",
+    "clueType":"clue",
+    "ifTrue": 1,
+    "sound" : "bottle"
+
+  },
+  {
+    "clueIdx": 8,
+    "imageSource": "./images/blueBottle.png",
+    "clueOccupyList":[3,6,1,1],
+    "tileSize" :"",
+    "clueInfo":"Some potions are on the table. I can recognize the Infinity potion I saw before.",
+    "clueDetail":"The bottle has blue fluid in it. The label shows A25. I remember this code stands for Infinity.",
+    "clueType":"clue",
+    "ifTrue": 0,
+    "sound" : "bottle"
+
+  },
+    {
+      "clueIdx": 8,
+      "imageSource": "./images/redBottle.png",
+      "clueOccupyList":[7,6,1,1],
+      "tileSize" :"",
+      "clueInfo":"Some potions are here. I can recognize the Lifespring potion I saw before.",
+        "clueDetail":"The bottle has pink fluid in it. The label shows A21. I remember this code stands for LifeSpring.",
+      "clueType":"clue",
+      "ifTrue": 0,
+      "sound" : "bottle"
+
+    },
+    {
+      "clueIdx": 9,
+      "imageSource": "",
+      "clueOccupyList":[7, 3, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"This is a mirror.",
+      "clueDetail":"The face reflected in the mirror looks so familiar. Right, it is me.",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "bottle"
+      
+    }
+
+  ],
+  "password":"2125",
+  "hint": "It seems to be Dr. Green's daughter's room.",
+  "mapLis": {
+   "basic" : [
+     [
+       [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[714,712,712,712,712,712,712,712,715],
+       [770,1434,1435,1435,1435,1435,1435,1435,1436,770],
+       [770,1491,1492,1492,1492,1492,1492,1492,1493,770],
+[770,121,121,121,121,121,121,121,121,770],     
+[770,121,121,121,121,121,121,121,121,770],
+[770,121,121,121,121,121,121,121,121,770],
+[770,121,121,121,121,121,121,121,121,770], 
+[771,712,712,712,712,121,712,712,712,772],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+     ],
+     [
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+       [-1,-1,-1,-1,857,858,859,-1,-1,-1],
+       [-1,-1,-1,-1,914,915,916,-1,-1,-1],
+       [-1,-1,-1,-1,971,972,973,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]
+
+
+   ],
+
+  "solving": [
+     [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [714,712,712,712,712,712,712,712,712,715],
+    [770,391,159,201,482,159,478,1435,1436,770],
+    [770,506,216,258,402,216,402,1492,840,770],
+    [770,663,-1,-1,-1,72,906,-1,-1,770],     
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,135,361,362,136,-1,-1,31,30,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+    [771,712,712,712,712,121,712,712,712,772],
+            [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+],
+
+    "unlocked":
+    [
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [714,712,712,712,712,712,712,712,712,715],
+  [770,1434,159,201,482,159,478,1435,1436,770],
+   [770,402,216,258,1492,216,1492,1492,366,770],
+      [770,606,-1,-1,-1,72,-1,-1,-1,770],     
+      [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+      [770,135,361,362,136,-1,-1,31,30,770],
+      [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+      [771,712,712,712,712,121,712,712,712,772],
+              [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+],
+  
+    "basic2":
+   [[
+     [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+     [-1,-1,-1,-1,-1,-1,-1,424,212,-1],
+[-1,-1,-1,-1,-1,-1,-1,481,-1,-1],
+[-1,-1,-1,-1,-1,72,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,911,681,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]]
+
+  }
+
+}

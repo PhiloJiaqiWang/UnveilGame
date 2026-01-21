@@ -1,0 +1,285 @@
+{ "position":{ "x":200, "y": 300 },
+"notebook": [
+  "I need to prove to Mr. Teal that fake news can be dangerous.",
+  "Mr. Teal says he passed the rumor around.",
+  "Ms. Crimson says she heard the rumor from Mr. Brown and told it to Mr. Teal.",
+  "Misinformation often leverages emotions to capture attention and generate strong reactions. Emotions can override critical thinking.",
+  "Lateral reading: is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Source evaluation: Look to see if someone else has already fact-checked the claim. Go to the original source to understand the trustworthiness of the information.",
+  "Time Lines: Truth is always changing. Consider the publication date and whether the information is up-to-date and relevant now.",
+  "Dr. Green is using these two portions - Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, for aiding sleep.",
+  "Dr. Green is staying here with his daughter for sabbatical. His daughter's birthday is on 09/05. It seems there is something wrong with his daughter though...",
+  "I think I know what happened. Alina may have the insomnia disease, and Dr. Green developed the cure.",
+  "Ms. White wants me to interview those villagers and find out why they believe Dr. Green has the immortality portion."
+],
+"notehead":["What next...", 
+"About the rumor...",
+"About the rumor...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"About Potions...",
+"About Dr. Green...",
+"About Alina...",
+"About Interview..."
+],
+"bgm" : 2,
+  "clueList":[    
+    {
+      "clueIdx": 1,
+      "imageSource": "./images/mushroom.png",
+      "clueOccupyList":[1, 7.5, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"There is a bag of mushroom. The label on the bag says it's from 'Mr. Mustard's buisiness'.",
+      "clueDetail":"The mushrooms reminds me of something but I can't remember..",
+      "clueType":"clue",
+      "ifTrue": 0,
+      "sound" : "mushroom"
+  
+    },
+    {
+      "clueIdx": 2,
+      "imageSource": "",
+      "clueOccupyList":[4, 5, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"Is there anything wrong with it?",
+      "clueDetail":"A: Better safe than sorry, but believing misinformation doesn't always mean safe. <br>B: Filter bubbles in misinformation occur when individuals are exposed primarily to information that aligns with their existing beliefs.<br>C: You have political or ideological motivations.<br>",
+      "clueType":"chest",
+      "ifTrue": 0,
+      "sound" : "what"
+  
+    },
+    {
+      "clueIdx": 3,
+      "imageSource": "",
+      "clueOccupyList":[2.5,2,1.5,1.5],
+      "tileSize" :"",
+      "clueInfo":"This is the way going out.",
+      "clueDetail":"I need to get the information first for Ms. White.",
+      "clueType":"door",
+      "ifTrue": 0,
+      "sound" : "lockedDoor"
+  
+    },
+    {
+      "clueIdx": 4,
+      "imageSource": "./images/secretNote.png",
+      "clueOccupyList":[-1, -1, -1, -1],
+      "tileSize" :"",
+      "clueInfo":"You got the note of the testimony.",
+      "clueDetail":"This is the note.",
+      "clueType":"key",
+      "ifTrue": 0,
+      "sound" : "mushroom"
+      
+    },
+    {
+      "clueIdx": 5,
+      "imageSource": "./images/secretNote.png",
+      "clueOccupyList":[7, 4, 1, 2],
+      "tileSize" :"",
+      "clueInfo":"This is a small computer. Will it help if I can show him a relevant story?",
+      "clueDetail":"《Community in Crisis: Unverified Medical Claims Spark Health Concerns, Strain Resources, and Erode Trust in Local Healthcare》<br>In a small community, a rumor started circulating on social media that a common over-the-counter medication was a miracle cure for a prevalent respiratory illness. Despite lacking scientific validity, the misinformation gained traction, and some community members chose to rely solely on this unproven remedy, neglecting recommended medical treatments. As a consequence, several individuals experienced worsened health conditions, leading to increased strain on local healthcare resources and a loss of trust in authoritative health guidance.",
+      "clueType":"clue",
+      "ifTrue": 1,
+      "sound" : "database"
+      
+    },
+    {
+      "clueIdx": 6,
+      "imageSource": "./images/scroll1.png",
+      "clueOccupyList":[1, 2, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"There is a piece of newspaper between two books.",
+      "clueDetail":"《Macondo Enveloped in Mysterious Insomnia Plague: A Sleepless Saga Unfolds》<br>Macondo City, May.25<br> In an unprecedented turn of events, the tranquil town of Macondo finds itself plunged into the grips of a mysterious insomnia plague.Residents of the once-sleepy town report an eerie and collective inability to succumb to restorative slumber, with nights turning into an endless procession of wakefulness. Local physicians and sleep specialists are baffled by the sudden onset of sleeplessness, with no apparent physiological or psychological explanations. Dr. Juvenal Urbino, a prominent figure in Macondo's medical community, acknowledges the perplexity surrounding the condition. <br>This is unlike anything we have ever encountered. It's as if the very essence of sleep has been spirited away from our town, he remarked during a press conference.<br> Local authorities have initiated investigations into the origins of this bizarre phenomenon, seeking answers to the enigma that has gripped Macondo in a sleepless embrace. ",
+      "clueType":"clue",
+      "ifTrue": 0,
+      "sound" : "clue_page"
+      
+    },
+    {
+      "clueIdx": 7,
+      "imageSource": "",
+      "clueOccupyList":[1, 5, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"Some firewoods.",
+      "clueDetail":"",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "click"
+      
+    },
+    {
+      "clueIdx": 7,
+      "imageSource": "",
+      "clueOccupyList":[5, 2, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"A basket full of yellow fabric.",
+      "clueDetail":"",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "click"
+      
+    },
+    {
+      "clueIdx": 8,
+      "imageSource": "",
+      "clueOccupyList":[6, 2, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"A basket full of red fabric.",
+      "clueDetail":"",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "click"
+      
+    },
+    {
+      "clueIdx": 9,
+      "imageSource": "",
+      "clueOccupyList":[7, 2, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"A basket full of green fabric.",
+      "clueDetail":"",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "click"
+      
+    },
+    {
+      "clueIdx": 10,
+      "imageSource": "",
+      "clueOccupyList":[6, 6, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"It is a mirror.",
+      "clueDetail":"I look into this person in the mirror. I'm getting more and more confused that I have to look away.",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "click"
+      
+    },
+    {
+      "clueIdx": 11,
+      "imageSource": "./images/lostBook.png",
+      "clueOccupyList":[8, 6, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"A bookshelf. There is a book titled 《Sewing for Fashion Designers》.",
+      "clueDetail":"Sewing for fashion is both an art form and a practical skill that brings creativity to life through fabric and thread. Fashion sewing involves the meticulous craftsmanship of constructing garments, from conceptualizing designs to turning them into tangible, wearable pieces. It encompasses a range of techniques, including pattern drafting, fabric selection, cutting, and stitching, all of which contribute to the creation of unique and stylish clothing. ",
+      "clueType":"clue",
+      "ifTrue": 0,
+      "sound" : "clue_page"
+      
+    },
+    {
+      "clueIdx": 12,
+      "imageSource": "",
+      "clueOccupyList":[3, 7.5, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"A nice sewing machine.",
+      "clueDetail":"",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "sewing"
+      
+    }
+      
+    
+  
+  
+    ],
+    "key": {
+      "Q": "",
+      "True": "A",
+      "Right":"Mr. Teal looks confused, alright.. he says. You got the Mr. Teal's testimony.",
+      "Wrong":"He doesn't seem to be convinced. Maybe I'll need to show him some evidence.",
+      "Type":"key",
+      "sound" : "correct"
+    },
+    "hint": "Let me see if I can find anything to convince him.",
+      "mapLis": {
+    "basic" : [
+        [
+            [714,712,712,712,712,712,712,712,712,715],
+            [770,1440,1432,1441,1432,1441,1432,1441,1433,770],
+            [770,1488,1498,1489,1498,1489,1498,1489,1499,770],
+   [770,122,122,122,122,122,122,122,122,770],     
+   [770,122,122,122,122,122,122,122,122,770],     
+   [770,122,122,122,122,711,712,712,712,773],
+    [770,122,122,122,122,883,882,882,882,770],
+   [770,122,122,122,122,122,122,122,122,770],     
+   [770,122,122,122,122,122,122,122,122,770],     
+   [771,712,712,712,712,712,712,712,712,772]
+   ],
+        [
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,1028,1029,1030,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+   ]
+   
+   
+      ],
+   
+     "solving": [
+   [714,712,712,712,712,712,712,712,712,715],
+   [770,1440,1432,1441,1432,46,47,46,568,770],
+   [770,841,433,434,417,413,412,356,625,770],
+   [770,-1,-1,-1,-1,-1,-1,-1,247,770], 
+   [770,-1,-1,-1,-1,-1,-1,-1,253,770],
+    [770,611,-1,-1,1756,711,712,712,712,773],
+    [770,-1,-1,-1,-1,365,479,601,841,770],
+   [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+   [770,141,295,353,-1,-1,-1,-1,71,770],
+   [771,712,712,712,712,712,712,712,712,772]
+   ],
+       "unlocked":
+       [
+        [714,712,712,712,712,712,712,712,712,715],
+   [770,1440,1432,1441,1432,46,47,46,568,770],
+   [770,841,433,434,417,413,412,356,625,770],
+   [770,-1,-1,-1,-1,-1,-1,-1,247,770], 
+   [770,-1,-1,-1,-1,-1,-1,-1,253,770],
+    [770,611,-1,-1,1756,711,712,712,712,773],
+    [770,-1,-1,-1,-1,365,479,601,841,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+   [770,141,295,353,-1,-1,-1,-1,71,770],
+   [771,712,712,712,712,712,712,712,712,772]
+   ],
+   "solved":
+   [
+    [714,712,712,712,712,712,712,712,712,715],
+   [770,1440,1432,1441,1432,46,47,46,568,770],
+   [770,841,490,491,417,413,412,356,625,770],
+   [770,-1,-1,-1,-1,-1,-1,-1,247,770], 
+   [770,-1,-1,-1,-1,-1,-1,-1,253,770],
+    [770,611,-1,-1,1756,711,712,712,712,773],
+    [770,-1,-1,-1,-1,365,479,601,841,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+   [770,141,295,353,-1,-1,-1,-1,71,770],
+   [771,712,712,712,712,712,712,712,712,772]
+],
+    
+       "basic2":
+      [[
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,600,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,904,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+   ]]
+  }
+
+}

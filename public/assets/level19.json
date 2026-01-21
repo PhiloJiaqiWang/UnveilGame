@@ -1,0 +1,214 @@
+{ "position":{ "x": 100, "y": 200 },
+"notebook": [
+  "Mr. Brown heard it from Mr. Teal. Mr. Teal heard it from Ms. Crimson. But Ms. Crimson heard it from Mr. Brown. How could it be?",
+  "Mr. Teal says he passed the rumor around.",
+  "Ms. Crimson says she heard the rumor from Mr. Brown and told it to Mr. Teal.",
+  "Believing in misinformation can be dangerous. We should prioritize accuracy, critical thinking, and responsible sharing.",
+  "Misinformation often leverages emotions to capture attention and generate strong reactions. Emotions can override critical thinking.",
+  "Lateral reading is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Source evaluation: Look to see if someone else has already fact-checked the claim. Go to the original source to understand the trustworthiness of the information.",
+  "Time Lines: Truth is always changing. Consider the publication date and whether the information is up-to-date and relevant now.",
+  "Dr. Green is using these two portions - Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, for aiding sleep.",
+  "Dr. Green is staying here with his daughter for sabbatical. His daughter's birthday is on 09/05. It seems there is something wrong with his daughter though...",
+  "I think I know what happened. Alina may have the insomnia disease, and Dr. Green developed the cure.",
+  "Ms. White wants me to interview those villagers and find out why they believe Dr. Green has the immortality portion."
+],
+"notehead":["What next...", 
+"About the rumor...",
+"About the rumor...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"About Potions...",
+"About Dr. Green...",
+"About Alina...",
+"About Interview..."
+],
+"bgm" : 2,
+  "clueList":[  {
+    "clueIdx": 1,
+    "imageSource": "./images/mushroom.png",
+    "clueOccupyList":[8, 8, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"There is a bag of mushroom. The label on the bag says it's from 'Mr. Mustard's buisiness'.",
+    "clueDetail":"The mushrooms reminds me of something but I can't remember..",
+    "clueType":"clue",
+    "ifTrue": 0,
+    "sound" : "mushroom"
+
+  },
+  {
+    "clueIdx": 2,
+    "imageSource": "",
+    "clueOccupyList":[2, 3, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"I only heard it from Mr. Teal. What else do you want to know?",
+    "clueDetail":"A: You are lying because you have political or ideological motivations. <br>B: Ms. Crimson lied to me to make her look good. <br>C: You  exaggerate the news when you told Ms.Crimson. <br>",
+    "clueType":"chest",
+    "ifTrue": 0,
+    "sound" : "hey"
+
+  },
+  {
+    "clueIdx": 3,
+    "imageSource": "",
+    "clueOccupyList":[7.2,2,1,1],
+    "tileSize" :"",
+    "clueInfo":"This is the way going out.",
+    "clueDetail":"I need to get the information first for Ms. White.",
+    "clueType":"door",
+    "ifTrue": 0,
+    "sound" : "lockedDoor"
+
+  },
+  {
+    "clueIdx": 4,
+    "imageSource": "./images/secretNote.png",
+    "clueOccupyList":[-1, -1, -1, -1],
+    "tileSize" :"",
+    "clueInfo":"You got the note of the testimony.",
+    "clueDetail":"This is Mr. Brown's testimony.",
+    "clueType":"key",
+    "ifTrue": 0,
+    "sound" : "mushroom"
+    
+  },
+  {
+    "clueIdx": 5,
+    "imageSource": "./images/secretNote.png",
+    "clueOccupyList":[7,6,1,1],
+    "tileSize" :"",
+    "clueInfo":"There is an unsent letter on the floor.",
+    "clueDetail":"Hey, you won't believe it! There's this wild rumor about an insomnia plague, and it turns out Dr. Green ordered mushrooms from Mr. Mustard. Now, I've heard some whispers that those mushrooms might not just cure insomnia; some are saying they could be part of an immortality potion! Can you imagine? Dr. Green might be onto something big here! <br>(This might be exactly how he told Ms. Crimson...)",
+    "clueType":"clue",
+    "ifTrue": 1,
+    "sound" : "clue_page"
+    
+  },
+  {
+    "clueIdx": 6,
+    "imageSource": "./images/scroll1.png",
+    "clueOccupyList":[3, 6, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"This is a fish bucket!.",
+    "clueDetail":"It is currently empty /:",
+    "clueType":"plain",
+    "ifTrue": 0,
+    "sound" : "drink"
+    
+  },
+  {
+    "clueIdx": 5,
+    "imageSource": "./images/photo.png",
+    "clueOccupyList":[6, 2, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"There is a photo in the shelf. ",
+    "clueDetail":"There are two men on the photo who look very similar to each other.",
+    "clueType":"clue",
+    "ifTrue": 0,
+    "sound" : "clue_page"
+
+  }
+    
+  
+
+
+  ],
+  "key": {
+    "Q": "",
+    "True": "C",
+    "Right":"He says: Hmm, maybe I did exagerate a little bit..<br><br> You got the last testimony! ",
+    "Wrong":"Mr. Brown seems confused. Maybe I need to show him some evidence.",
+    "Type":"key",
+    "sound" : "correct"
+  },
+  "hint": "Ms. Crimson said she heard it from Mr. Brown, and it was her who passes it down to Mr. Teal. But Mr. Brown said he got it from Mr. Teal. How could that even be possible?",
+    "mapLis": {
+    "basic" : [
+        [
+            [1,1,1,1,714,712,712,712,712,715],
+            [1,1,1,1,770,1440,1441,1441,1442,770],
+            [1,1,1,1,770,1497,1498,1498,1499,770],
+            [1,1,1221,1222,770,121,121,121,121,770],
+            [1,1,1278,1279,121,121,121,121,121,770],
+            [1,1,1278,1279,121,121,121,121,121,770],
+            [1,1,1278,1279,770,121,121,121,121,770],
+            [1,1,1335,1336,770,121,121,121,121,770],    
+            [1,1,1,1,770,121,121,121,121,770],   
+   [1,1,1,1,771,712,712,712,712,772]
+   ],
+        [
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,409,410,410,411,-1],
+   [-1,-1,-1,-1,-1,466,467,467,468,-1],
+   [-1,-1,-1,-1,-1,523,524,524,525,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+   ]
+   
+   
+      ],
+   
+     "solving": [
+        [1,1,1,1,721,719,719,719,719,722],
+        [1,1,1,1,777,1440,1441,1441,1442,777],
+        [1,1,792,793,777,13,143,207,419,777],
+        [1,1,1757,-1,777,-1,-1,-1,-1,777],
+        [1,737,-1,-1,-1,-1,-1,-1,-1,777],
+        [1079,965,-1,-1,-1,-1,-1,-1,-1,777],
+    [1,1,-1,26,777,-1,-1,-1,70,777],
+        [1,1,-1,-1,777,23,-1,-1,-1,777],    
+        [1,1,1,1,777,-1,-1,140,141,777],   
+[1,1,1,1,778,719,719,719,719,779]
+   ],
+       "unlocked":
+       [
+        [1,1,1,1,721,719,719,719,719,722],
+        [1,1,1,1,777,1440,1441,1441,1442,777],
+        [1,1,792,793,777,13,143,207,419,777],
+        [1,1,1757,-1,777,-1,-1,-1,-1,777],
+        [1,737,-1,-1,-1,-1,-1,-1,-1,777],
+        [1079,965,-1,-1,-1,-1,-1,-1,-1,777],
+        [1,1,-1,26,777,-1,-1,-1,70,777],
+        [1,1,-1,-1,777,23,-1,-1,-1,777],  
+        [1,1,1,1,777,-1,-1,140,141,777],   
+[1,1,1,1,778,719,719,719,719,779]
+   ],
+   "solved":
+   [
+    [1,1,1,1,721,719,719,719,719,722],
+    [1,1,1,1,777,1440,1441,1441,1442,777],
+    [1,1,792,793,777,13,143,208,419,777],
+    [1,1,1757,-1,777,-1,-1,-1,-1,777],
+    [1,737,-1,-1,-1,-1,-1,-1,-1,777],
+    [1079,965,-1,-1,-1,-1,-1,-1,-1,777],
+    [1,1,-1,26,777,-1,-1,-1,70,777],
+    [1,1,-1,-1,777,23,-1,-1,-1,777],  
+    [1,1,1,1,777,-1,-1,140,141,777],   
+[1,1,1,1,778,719,719,719,719,779]
+],
+    
+       "basic2":
+      [[
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,1766,126,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+   ]]
+  }
+
+}

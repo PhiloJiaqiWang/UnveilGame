@@ -1,0 +1,112 @@
+{ "position":{ "x": 120, "y": 350 },
+"notebook": [
+  "I should give the testimony to Ms. White.",
+  "Mr. Brown heard from his brother, who heard it from Mr. Mustard, that Dr. Green ordered some mushrooms for his medicine. I guess that's why I saw mushrooms in every house.",
+  "When Mr. Brown passed this information to Ms. Crimson, he exaggerated it and led Ms. Crimson to believe it was the potion of immortality.",
+  "Sometimes we spread misinformation without even knowing, and misinformation can be generated in various ways, such as exaggerating the facts.",
+  "Believing in misinformation can be dangerous. We should prioritize accuracy, critical thinking, and responsible sharing.",
+  "Misinformation often leverages emotions to capture attention and generate strong reactions. Emotions can override critical thinking.",
+  "Lateral reading is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Source evaluation: Look to see if someone else has already fact-checked the claim. Go to the original source to understand the trustworthiness of the information.",
+  "Time Lines: Truth is always changing. Consider the publication date and whether the information is up-to-date and relevant now.",
+  "Dr. Green is using these two portions - Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, for aiding sleep.",
+  "Dr. Green is staying here with his daughter for sabbatical. His daughter's birthday is on 09/05. It seems there is something wrong with his daughter though...",
+  "I think I know what happened. Alina may have the insomnia disease, and Dr. Green developed the cure.",
+  "Ms. White wants me to interview those villagers and find out why they believe Dr. Green has the immortality portion."
+],
+"notehead":["What next...", 
+"About the rumor...",
+"About the rumor...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"About Potions...",
+"About Dr. Green...",
+"About Alina...",
+"About Interview..."
+],
+"bgm" : 2,
+  "clueList":[ 
+  {
+    "clueIdx": 1,
+    "imageSource": "./images/secretNote.png",
+    "clueOccupyList":[6, 5, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"Ms. White read the testimony.",
+    "clueDetail":{
+      "About&nbsp;the&nbsp;testimony":"Yeah, it is a bit frustrating, you know? Sometimes people tend to, like, exaggerate things or spread info that is not quite accurate. As a journalist, I feel it is important to be super careful with our sources and fact-checking. It is not always easy, but we want to get the story right.",
+      "Now&nbsp;You&nbsp;can&nbsp;tell&nbsp;me&nbsp;who&nbsp;I&nbsp;am?":"Yes! Just one more thing to do. I will show you something. Can you follow me to Mr.Brown s house?",
+      "Fine...": "goIntoNext();"
+
+    },
+    "clueType":"dialogue",
+    "ifTrue": 0,
+    "sound" : "white"
+
+  }
+  ],
+  "hint": "I had all the testimonies. I should go to Ms. White and hopefully she can tell me who I am.",
+  "mapLis": {
+   "basic" : [
+     [
+[5,5,5,5,5,5,5,5,5,5],
+       [5,5,5,5,5,5,5,5,5,5],
+       [5,121,121,5,5,5,5,5,5,5],
+       [5,121,5,5,5,5,5,5,5,5],
+       [5,121,121,5,5,5,5,121,121,5],
+       [5,5,5,5,5,5,5,121,5,5],
+       [5,5,5,5,121,121,121,121,5,5],
+       [5,5,121,121,121,5,5,5,5,5],
+       [5,5,5,5,121,121,121,121,121,5],
+       [5,5,5,5,5,5,5,5,5,5]
+],
+     [
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+       [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+       [-1,-1,-1,-1,-1,-1,-1,-1,640,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]
+
+
+   ],
+
+  "solving": [
+    [640,1278,1280,644,584,645,5,1217,1218,586],
+    [527,1335,1337,-1,641,-1,-1,1274,1275,643],
+    [5,-1,-1,-1,-1,-1,-1,1488,1489,5],
+    [585,-1,-1,515,516,517,-1,1545,1547,526],
+    [642,-1,-1,572,1,574,-1,-1,-1,5],
+    [1219,1220,-1,629,630,631,1758,-1,583,5],
+    [1274,1275,-1,-1,-1,-1,-1,-1,640,5],
+    [1488,1489,-1,-1,-1,-1,-1,-1,-1,5],
+      [1545,1547,-1,-1,-1,-1,-1,-1,-1,121],
+    [640,5,5,5,532,5,5,5,5,5]
+],
+
+    "basic2":
+   [[
+[-1,1326,1327,-1,-1,-1,-1,-1,-1,-1],
+[-1,433,434,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,1331,1332,-1],
+     [-1,-1,-1,-1,-1,-1,-1,429,430,-1],
+     [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[1333,1334,-1,-1,-1,-1,-1,-1,-1,-1],
+[583,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]]
+
+  }
+
+}

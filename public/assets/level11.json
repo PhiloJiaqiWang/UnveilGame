@@ -1,0 +1,122 @@
+{ "position":{ "x": 300, "y": 300 },
+"notebook": [
+  "Lateral reading: is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Source evaluation: Look to see if someone else has already fact-checked the claim. Go to the original source to understand the trustworthiness of the information.",
+  "Time Lines: Truth is always changing. Consider the publication date and whether the information is up-to-date and relevant now.",
+  "Dr. Green is using these two potions - Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, for aiding sleep.",
+  "Dr. Green is staying here with his daughter for sabbatical. His daughter's birthday is on 09/05. It seems there is something wrong with his daughter though...",
+  "I think I know what happened. Alina may have insomnia, and Dr. Green developed the cure.",
+  "Ms. White wants me to interview those villagers and find out why they believe Dr. Green has the immortality potion."
+],
+"notehead":["What I learned...", 
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"About Potions...",
+"About Dr. Green...",
+"What happened...",
+"What next..."
+],
+"bgm" : 2,
+
+  "clueList":[ {
+    "clueIdx": 1,
+    "imageSource": "",
+    "clueOccupyList":[7, 3, 2, 1.2],
+    "tileSize" :"",
+    "clueInfo":"The door is open.",
+    "clueDetail":"The villager inside sees me and invites me inside.",
+    "clueType":"opendoor",
+    "ifTrue": 0,
+    "sound" : "openDoor"
+
+  },
+  {
+    "clueIdx": 2,
+    "imageSource": "./images/secretNote.png",
+    "clueOccupyList":[6, 5, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"Ms.White is a journalist.",
+    "clueDetail":"Can you help me interview the villagers on why they start to spread the rumor?",
+    "clueType":"plain",
+    "ifTrue": 0,
+    "sound" : "white"
+
+  },
+  {
+    "clueIdx": 3,
+    "imageSource": "",
+    "clueOccupyList":[1, 1, 1, 2],
+    "tileSize" :"",
+    "clueInfo":"This door is locked now.",
+    "clueDetail":"I try to knock but nobody answers.",
+    "clueType":"plain",
+    "ifTrue": 0,
+    "sound" : "lockedDoor"
+
+  }
+
+
+  ],
+  "hint": "Ms.White wants me to interview those villagers and find out why they believe Dr.Green has the immortality portion.",
+  "mapLis": {
+   "basic" : [
+     [
+[5,5,5,5,5,5,5,5,5,5],
+       [5,5,5,5,5,5,5,5,5,5],
+       [5,121,121,5,5,5,5,5,5,5],
+       [5,121,5,5,5,5,5,5,5,5],
+       [5,121,121,5,5,5,5,121,121,5],
+       [5,5,5,5,5,5,5,121,5,5],
+       [5,5,5,5,121,121,121,121,5,5],
+       [5,5,121,121,121,5,5,5,5,5],
+       [5,5,5,5,121,121,121,121,121,5],
+       [5,5,5,5,5,5,5,5,5,5]
+],
+     [
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+       [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+       [-1,-1,-1,-1,-1,-1,-1,-1,640,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]
+
+
+   ],
+
+  "solving": [
+    [640,1278,1280,644,584,645,5,1217,1218,586],
+    [527,1335,1337,-1,641,-1,-1,1274,1275,643],
+    [5,-1,-1,-1,-1,-1,-1,1488,1489,5],
+    [585,-1,-1,515,516,517,-1,1545,1547,526],
+    [642,-1,-1,572,1,574,-1,-1,-1,5],
+    [1219,1220,-1,629,630,631,1758,-1,583,5],
+    [1274,1275,-1,-1,-1,-1,-1,-1,640,5],
+    [1488,1489,-1,-1,-1,-1,-1,-1,-1,5],
+      [1545,1547,-1,-1,-1,-1,-1,-1,-1,121],
+    [640,5,5,5,532,5,5,5,5,5]
+],
+
+    "basic2":
+   [[
+[-1,1326,1327,-1,-1,-1,-1,-1,-1,-1],
+[-1,433,434,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,1331,1332,-1],
+     [-1,-1,-1,-1,-1,-1,-1,486,487,-1],
+     [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[1333,1334,-1,-1,-1,-1,-1,-1,-1,-1],
+[583,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]]
+
+  }
+
+}

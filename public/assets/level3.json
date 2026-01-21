@@ -1,0 +1,184 @@
+{"position":{ "x": 200, "y": 400 },
+"notebook": ["This is Dr. Green's office. There are many bookshelves and chemical reagents here. I noticed there is also a chest in this room.",
+    "I should go check out those chemical reagents and their related information in the database. I have a hunch that the password might be in the database."],
+    "notehead":["Where am I...", "What next..."],
+    "page": 0,
+"bgm" : 0,
+  "clueList":[ {
+    "clueIdx": 1,
+    "imageSource": ".images/chest.png",
+    "clueOccupyList":[7.8, 7.5, 1.5, 1.5],
+    "tileSize" :"",
+    "clueInfo":"Bring the A21 and enter the passcode(4 digits):",
+    "clueDetail":"",
+    "clueType":"passwordchest",
+    "ifTrue": 0,
+    "sound" : "lockedChest"
+  },
+  {
+    "clueIdx": 2,
+    "imageSource": "./images/lostBook.png",
+    "clueOccupyList":[1, 6, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"《Think like a Scientist 101》",
+    "clueDetail":"Lateral reading is the act of evaluating the credibility of a source by comparing it with other sources. Think about:<br><u>Cross-Referencing</u>: Cross-referencing involves comparing information from the original source with information from other sources. Search for related content, use multiple references, and identify inconsistencies or discrepancies between sources.",
+    "clueType":"clue",
+    "ifTrue": 0,
+    "sound" : "clue_page"
+
+  },
+    {
+      "clueIdx": 3,
+      "imageSource": "./images/secretNote.png",
+      "clueOccupyList":[5, 5, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"There is a small machine with screen. It seems to be a database. What should I search?",
+      "clueDetail":{
+        "Lifespring+Infinity":"LifeSpring: A magical new medicine that doubles the effects of reviving human cells!! May immortality come true?  <br> Infinity: As the name suggests, this medicine has enormous power to help you regain your youth! Dial 100-000-888 to order now! <br>---SourceCode: 3251",
+        "Lifespring+Immortality":"Infinity is rumored to be a miraculous elixir that grants immortality. There is no scientific basis for this claim, and it is essential to be cautious about sensationalized stories regarding it.<br>---SourceCode: 4726",
+        "Clinical-Trials": "LifeSpring: This medicine shows potential in curing insomnia. 99/100 patients are cured after being treated with this medicine. Side effects include vomiting, headaches, and illusion.  <br> Infinity: 60/100 patients show improvement in strength and better skin. Side effects include allergy, fatigue. <br>---SourceCode: 4789",
+        "Lifespring+Infinity 2" : "LifeSpring: This is the potion made of compound X and compound Y. Compound X and Y can both revive the cells but mixed together, it can produce melatonin. It is coded A21, and used to help patients sleep.  <br> Infinity: This is the potion made of compound X and compound Z. Compound Z serves as a catalyst. It is coded A25, and often used in beauty products. <br>---SourceCode: 4450"
+      },
+      "clueType":"database",
+      "ifTrue": 0,
+      "sound" : "database"
+
+    },
+    {
+      "clueIdx": 4,
+      "imageSource": "./images/lostBook.png",
+      "clueOccupyList":[7, 3, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"Some chemicals.",
+      "clueDetail":"If Dr. Green is developing something, maybe I can find the potion. But I can’t tell what they are.",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "bottle"
+
+    },
+    {
+      "clueIdx": 5,
+      "imageSource": "./images/rustyKey.png",
+      "clueOccupyList":[-1, -1, -1, -1],
+      "tileSize" :"",
+      "clueInfo":"You found a key in the chest!!!",
+      "clueDetail":"What the key is for?",
+      "clueType":"key",
+      "ifTrue": 0,
+      "sound" : "clue_page"
+
+    },
+    {
+      "clueIdx": 6,
+      "imageSource": "",
+      "clueOccupyList":[5, 8.7, 1, 1],
+      "tileSize" :"",
+      "clueInfo": "This is the door to the hallway.",
+      "clueDetail":"There must be clues that can lead me to the next door. ",
+      "clueType":"hallway",
+      "ifTrue": 0,
+      "sound" : "openDoor"
+
+    },
+    {
+      "clueIdx": 7,
+      "imageSource": "./images/blueBottle.png",
+      "clueOccupyList":[1, 2, 1, 1.2],
+      "tileSize" :"",
+      "clueInfo": "There is a bottle of blue potion on the shelf.",
+      "clueDetail":"The front label says ‘Infinity’. The back label is worn out, but I can only make out something like ‘A2?’",
+      "clueType":"clue",
+      "ifTrue": 0,
+      "sound" : "bottle"
+
+    },
+    {
+      "clueIdx": 8,
+      "imageSource": "./images/redBottle.png",
+      "clueOccupyList":[3, 2, 1, 1.2],
+      "tileSize" :"",
+      "clueInfo": "There is a bottle of red potion on the shelf.",
+      "clueDetail":"The label says Lifespring. The back label is worn out, but I can only make out something like ‘A2?’",
+      "clueType":"clue",
+      "ifTrue": 1,
+      "sound" : "bottle"
+
+    }
+    
+
+
+  ],
+"password":"4450",
+"hint": "It seems to be an office with a lot of bookshelves and chemicals.",
+  "mapLis": {
+   "basic" : [
+     [
+[714,712,712,712,712,712,712,712,715],
+[770,887,887,887,887,887,887,887,887,770],
+[770,887,887,887,887,887,887,887,887,770],
+[770,119,119,119,119,119,119,119,119,770],     
+[770,119,119,119,119,119,119,119,119,770],
+ [770,119,119,119,119,119,119,119,119,770],
+ [770,119,119,119,119,119,119,119,119,770],
+
+[770,119,119,119,119,119,119,119,119,770],
+[770,119,119,119,119,119,119,119,119,770], 
+[771,712,712,712,712,119,712,712,712,772]
+],
+     [
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,922,923,923,923,924,-1],
+[-1,-1,-1,-1,979,980,980,980,981,-1],
+[-1,-1,-1,-1,1036,1037,1037,1037,1038,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]
+
+
+   ],
+
+  "solving": [
+[714,712,712,712,712,712,712,712,712,715],
+[770,295,240,239,353,887,887,887,887,770],
+[770,297,241,240,354,29,28,31,30,770],
+[770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+[770,843,845,848,-1,-1,-1,-1,-1,770],
+ [770,-1,-1,-1,-1,197,312,196,-1,770],
+ [770,843,845,848,-1,-1, -1,-1,-1,770],
+[770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+[770,843,845,848,-1,-1,-1,-1,608,770],[771,712,712,712,712,119,712,712,712,772]
+],
+    "unlocked":
+    [
+      [714,712,712,712,712,712,712,712,712,715],
+      [770,295,240,239,353,887,887,887,887,770],
+      [770,297,241,240,354,29,28,31,30,770],
+      [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+      [770,843,845,848,-1,-1,-1,-1,-1,770],
+       [770,-1,-1,-1,-1,197,312,196,-1,770],
+       [770,843,845,848,-1,-1, -1,-1,-1,770],
+      [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+      [770,843,845,848,-1,-1,-1,-1,665,770],[771,712,712,712,712,119,712,712,712,772]
+],
+ 
+    "basic2":
+   [[
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,507,508,508,509,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,901,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]]
+
+  }
+
+}

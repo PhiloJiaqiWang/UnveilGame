@@ -1,0 +1,137 @@
+{ "position":{ "x": 350, "y": 150 },
+"notebook": [
+  "I should go talk to the villager.",
+  "Mr. Teal says he passed the rumor around.",
+  "Ms. Crimson says she heard the rumor from Mr. Brown and told it to Mr. Teal.",
+  "Believing in misinformation can be dangerous. We should prioritize accuracy, critical thinking, and responsible sharing.",
+  "Misinformation often leverages emotions to capture attention and generate strong reactions. Emotions can override critical thinking.",
+  "Lateral reading is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Source evaluation: Look to see if someone else has already fact-checked the claim. Go to the original source to understand the trustworthiness of the information.",
+  "Time Lines: Truth is always changing. Consider the publication date and whether the information is up-to-date and relevant now.",
+  "Dr. Green is using these two portions - Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, for aiding sleep.",
+  "Dr. Green is staying here with his daughter for sabbatical. His daughter's birthday is on 09/05. It seems there is something wrong with his daughter though...",
+  "I think I know what happened. Alina may have the insomnia disease, and Dr. Green developed the cure.",
+  "Ms. White wants me to interview those villagers and find out why they believe Dr. Green has the immortality portion."
+],
+"notehead":["What next...", 
+"About the rumor...",
+"About the rumor...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"About Potions...",
+"About Dr. Green...",
+"About Alina...",
+"About Interview..."
+],
+"bgm" : 2,
+  "clueList":[  {
+    "clueIdx": 1,
+    "imageSource": "./images/mushroom.png",
+    "clueOccupyList":[8, 8, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"There is a bag of mushroom. The label on the bag says it's from 'Mr. Mustard's buisiness'.",
+    "clueDetail":"The mushrooms reminds me of something but I can't remember..",
+    "clueType":"clue",
+    "ifTrue": 0,
+    "sound" : "mushroom"
+
+  },
+  {
+    "clueIdx": 2,
+    "imageSource": "",
+    "clueOccupyList":[2, 3, 2, 1],
+    "tileSize" :"",
+    "clueInfo":"Hello, you look very familiar.",
+    "clueDetail":{
+        "What&nbsp;did&nbsp;you&nbsp;say&nbsp;to&nbsp;Ms.&nbsp;Crimson?": "My brother lives in the village next to us. The mushroom dealer Mr. Mustard also lives there. My brother told me that Dr. Green ordered some mushrooms which he claims to be helpful.",
+        "Helpful&nbsp;for&nbsp;what?":"Hmmm, the insomnia plague? (He seems unsure.)",
+        "Why&nbsp;immortality?": "Hmm, actually I heard it from Mr. Teal. ",
+        "Hmmm." : "goIntoNext();"
+      },
+      "clueType":"dialogue",
+      "ifTrue": 0,
+      "sound" : "hey"
+
+  },
+  {
+    "clueIdx": 3,
+    "imageSource": "",
+    "clueOccupyList":[7,2,1,1],
+    "tileSize" :"",
+    "clueInfo":"This is the way going out.",
+    "clueDetail":"I need to get the information first for Ms. White.",
+    "clueType":"door",
+    "ifTrue": 0,
+    "sound" : "lockedDoor"
+
+  }
+
+
+
+  ],
+  "hint": "The man claims to be Mr. Brown. Ms. Crimson said she heard of the rumor from him. I should talk to him and figure out how it started.",
+  "mapLis": {
+    "basic" : [
+        [
+            [1,1,1,1,714,712,712,712,712,715],
+            [1,1,1,1,770,1440,1441,1441,1442,770],
+            [1,1,1,1,770,1497,1498,1498,1499,770],
+            [1,1,1221,1222,770,121,121,121,121,770],
+            [1,1,1278,1279,121,121,121,121,121,770],
+            [1,1,1278,1279,121,121,121,121,121,770],
+            [1,1,1278,1279,770,121,121,121,121,770],
+            [1,1,1335,1336,770,121,121,121,121,770],    
+            [1,1,1,1,770,121,121,121,121,770],   
+   [1,1,1,1,771,712,712,712,712,772]
+   ],
+        [
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,409,410,410,411,-1],
+   [-1,-1,-1,-1,-1,466,467,467,468,-1],
+   [-1,-1,-1,-1,-1,523,524,524,525,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+   ]
+   
+   
+      ],
+   
+     "solving": [
+        [1,1,1,1,721,719,719,719,719,722],
+        [1,1,1,1,777,1440,1441,1441,1442,777],
+        [1,1,792,793,777,13,143,207,419,777],
+        [1,1,1757,-1,777,-1,-1,-1,-1,777],
+        [1,737,-1,-1,-1,-1,-1,-1,-1,777],
+        [1079,965,-1,-1,-1,-1,-1,-1,-1,777],
+        [1,1,-1,26,777,-1,-1,-1,70,777],
+        [1,1,-1,-1,777,23,-1,-1,-1,777],    
+        [1,1,1,1,777,-1,-1,140,141,777],   
+[1,1,1,1,778,719,719,719,719,779]
+   ],
+     
+    
+       "basic2":
+      [[
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,1766,126,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+   ]]
+  }
+
+}

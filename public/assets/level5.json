@@ -1,0 +1,213 @@
+{"position":{ "x": 250, "y": 350 },
+"notebook": [
+  "Lateral reading: is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Dr. Green is using these two potions - Infinity, blue color, A25, used in beauty products; Lifespring, pink color, A21, for helping with sleep.",
+  "Dr. Green prepared a birthday gift for his daughter. When is her birthday?"
+],
+"notehead":["What I learned...", 
+"What I learned...",
+"About Potions...",
+"What next..."],
+"bgm" : 0,
+  "clueList":[ {
+      "clueIdx": 1,
+      "imageSource": ".images/chest.png",
+      "clueOccupyList":[7, 7, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"Bring the gift and enter the passcode (4 digits):",
+      "clueDetail":"",
+      "clueType":"passwordchest",
+      "ifTrue": 0,
+      "sound" : "lockedChest"
+
+    },
+    {
+      "clueIdx": 2,
+      "imageSource": "./images/lostBook.png",
+      "clueOccupyList":[1, 7, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"《Think like a Scientist 101》",
+      "clueDetail":"Lateral reading is the act of evaluating the credibility of a source by comparing it with other sources. Think about:<br><u>Source evaluation</u>: <br>Look to see if someone else has already fact-checked the claim.  <br>Go to the original source to understand the trustworthiness of the information<br>If you're still not sure about its trustworthiness even after you found the original source, read what other people say about the source itself (publication, author, organization).",
+      "clueType":"clue",
+      "ifTrue": 0,
+      "sound" : "clue_page"
+  
+
+    },
+ 
+  {
+    "clueIdx": 3,
+    "imageSource": "./images/rustyKey.png",
+    "clueOccupyList":[-1, -1, -1, -1],
+    "tileSize" :"",
+    "clueInfo":"You found a key in the chest!!!",
+    "clueDetail":"What the key is for?",
+    "clueType":"key",
+    "ifTrue": 0,
+    "sound" : "clue_page"
+
+
+  },
+    {
+      "clueIdx": 4,
+      "imageSource": "./images/lostBook.png",
+      "clueOccupyList":[4, 3, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"There are a lot of fiction books on this shelf. One of them has a bookmark sticking out.",
+      "clueDetail":"One night about the time that Rebeca was cured of the vice of eating earth and was brought to sleep in the other children’s room, the Indian woman, who slept with them awoke by chance and heard a strange, intermittent sound in the corner. She got up in alarm, thinking that an animal had come into the room, and then she saw Rebeca in the rocker, sucking her finger and with her eyes lighted up in the darkness like those of a cat. Terrified, exhausted by her fate, Visitación recognized in those eyes the symptoms of the sickness whose threat had obliged her and her brother to exile themselves forever from an age-old kingdom where they had been prince and princess. It was the insomnia plague.  ---《One Hundred Years of Solitude》",
+      "clueType":"clue",
+      "ifTrue": 0,
+      "sound" : "clue_page"
+  
+
+    },
+    {
+      "clueIdx": 5,
+      "imageSource": "./images/secretNote.png",
+      "clueOccupyList":[2, 5, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"It seems to be Dr.Green's bed. It's definitely wrong for me to walk around in his house like this...There are a few letters inside the nightstand.",
+      "clueDetail":{
+        "White":"Dear Dr.Green,<br>I hope you have had a great subbatical! I currently work as a freelance journalist for PhiloNews. I am reaching out to know more about your new medicine. I have heard about this mysterious potion and I was wondering if I could have an interview with you when you have time. Thank you!<br>Best,<br>White<br>09/02",
+        "Susan-Yuan":"Hi Dr.Green,<br>As I mentioned earlier, you are welcome to stay here for as long as you would like. I have heard from Mary that your daughter will celebrate her birthday in two days. Send my best regards! <br> P.S. I know you are busy with something, so I asked my butler to send you food every morning starting tomorrow! <br>Susan<br>09/01",
+        "Mr.Mustard": "Dear Dr.Green,<br>Did you receive the flowers? I asked several friends to get the sunflower in this season. I know it is a gift to someone so I make sure they are in good conditions. Anyway, did you remember last time you bought some mushrooms from me? I think I need to talk further about this with you. It will be great if you could tell the village what you have told me!<br>Thanks,<br>Mustard<br>09/04",
+        "Mary-Nightly" : "Hi Green,<br>I hope you are enjoying your sabbatical. I remember last year today we had a big birthday party for Alina and I want to check in on you. Let me know how things are going! I hope she is enjoying her birthday as I am writing the letter!<br>Mary<br>09/05",
+        "Anonymous" : "Hi Dr.Green, <br>Is it true that you have developed an immortality drug? If this is false information, please clarify as soon as possible. I believe the villagers are planning a visit to your home tomorrow to seek an explanation.<br>09/05"
+      },
+      "clueType":"database",
+      "ifTrue": 0,
+      "sound" : "clue_page"
+  
+
+    },
+    {
+      "clueIdx": 6,
+      "imageSource": "",
+      "clueOccupyList":[5, 7.6, 1, 1],
+      "tileSize" :"",
+      "clueInfo": "This is the door to the hallway.",
+      "clueDetail":"There must be clues that can lead me to the next door. ",
+      "clueType":"hallway",
+      "ifTrue": 0,
+      "sound" : "openDoor"
+  
+
+    },
+    {
+      "clueIdx": 7,
+      "imageSource": "./images/sunflower.png",
+      "clueOccupyList":[1, 3, 1, 1],
+      "tileSize" :"",
+      "clueInfo": "There are some flowers inside the wardrobe.",
+      "clueDetail":"It looks like an art work made out of sunflowers.",
+      "clueType":"clue",
+      "ifTrue": 1,
+      "sound" : "clue_page"
+  
+
+    },
+    {
+      "clueIdx": 8,
+      "imageSource": "./images/chrysanths.png",
+      "clueOccupyList":[3, 3, 1, 1],
+      "tileSize" :"",
+      "clueInfo": "There are some flowers inside the wardrobe.",
+      "clueDetail":"It looks like an art work made out of chrysanths.",
+      "clueType":"clue",
+      "ifTrue": 0,
+      "sound" : "clue_page"
+  
+
+    },
+    {
+      "clueIdx": 9,
+      "imageSource": "./images/secretNote.png",
+      "clueOccupyList":[6,4,1,1],
+      "tileSize" :"",
+      "clueInfo":"There is a piece of paper here.",
+      "clueDetail":"On the notebook: I talked to Alina today and she forgot it is her birthday today. I told her to stay positive but I can't even put on a smile. I buried myself in my lab the whole day. I hope she will get happier when she sees the flowers. ---09/??<br><br>The date is hard to read due to the handwritting style.",
+      "clueType":"clue",
+      "ifTrue": 0,
+      "sound" : "clue_page"
+  
+
+    }
+
+  ],
+  "password":"0905",
+  "hint": "It seems to be Dr. Green's bedroom.",
+  "mapLis": {
+   "basic" : [
+     [
+       [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[714,712,712,712,712,712,712,712,715],
+[770,887,887,887,887,887,887,887,887,770],
+[770,887,887,887,887,887,887,887,887,770],
+[770,119,119,119,119,119,119,119,119,770],     
+[770,119,119,119,119,119,119,119,119,770],
+[770,119,119,119,119,119,119,119,119,770],
+[770,119,119,119,119,119,119,119,119,770], 
+[771,712,712,712,712,119,712,712,712,772],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+     ],
+     [
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+       [-1,580,581,582,-1,-1,-1,-1,-1,-1],
+       [-1,637,638,639,-1,-1,-1,-1,-1,-1],
+       [-1,694,695,696,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]
+
+
+   ],
+
+  "solving": [
+     [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [714,712,712,712,712,712,712,712,712,715],
+    [770,887,887,887,887,887,887,887,887,770],
+    [770,311,309,311,841,295,352,296,353,770],
+    [770,-1,-1,-1,-1,298,355,297,354,770],     
+    [770,81,186,80,-1,-1,-1,-1,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,840,-1,-1,-1,-1,-1,608,-1,770], 
+    [771,712,712,712,712,119,712,712,712,772],
+            [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+],
+
+    "unlocked":
+    [
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [714,712,712,712,712,712,712,712,712,715],
+      [770,887,887,887,887,887,887,887,887,770],
+      [770,311,309,311,841,295,352,296,353,770],
+      [770,-1,-1,-1,-1,298,355,297,354,770],     
+      [770,81,186,80,-1,-1,-1,-1,-1,770],
+      [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+      [770,840,-1,-1,-1,-1,-1,665,-1,770], 
+      [771,712,712,712,712,119,712,712,712,772],
+              [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+],
+
+    "basic2":
+   [[
+     [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,507,508,508,508,508,509,212,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]]
+
+  }
+
+}

@@ -1,0 +1,103 @@
+{ "position":{ "x": 370, "y": 400 },
+"notebook": [
+  "Lateral reading: is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Source evaluation: Look to see if someone else has already fact-checked the claim. Go to the original source to understand the trustworthiness of the information.",
+  "Time Lines: Truth is always changing. Consider the publication date and whether the information is up-to-date and relevant now.",
+  "Dr. Green is using these two potions - Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, for aiding sleep.",
+  "Dr. Green is staying here with his daughter for sabbatical. His daughter's birthday is on 09/05. It seems there is something wrong with his daughter though...",
+  "I think I know what had happened. Alina may have insomnia, and Dr. Green developed the cure.",
+  "Somehow the villagers think he has the immortality potion. I should go talk to them."
+],
+"notehead":["What I learned...", 
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"About Potions...",
+"About Dr. Green...",
+"What happened...",
+"What next..."
+],
+"bgm" : 1,
+  "clueList":[ 
+  {
+    "clueIdx": 1,
+    "imageSource": "./images/secretNote.png",
+    "clueOccupyList":[6, 6, 2, 1],
+    "tileSize" :"",
+    "clueInfo":"Villagers are gathering here. Seeing you out, they start to ask you if you have the immortal portion.",
+    "clueDetail":{
+      "Villager&nbsp;A":"Why are you coming out of this house? Did you see Dr. Green? Do you have the portion.",
+      "Villager&nbsp;B":"I mean, it sounds ridiculous, but I would rather believe it, would not you?",
+      "Villager&nbsp;C":"Hey, can you give us the potion? ",
+      "Give&nbsp;them&nbsp;the&nbsp;report.": "goIntoNext();"
+    },
+    "clueType":"dialogue",
+    "ifTrue": 0,
+    "sound" : "crowd"
+
+  }
+
+
+  ],
+  "hint": "Villagers are gathering here. It is them who made the noise I hear. Maybe they will leave after I show them the report.",
+  "mapLis": {
+   "basic" : [
+     [
+[5,5,5,5,5,5,5,5,5,5],
+       [5,5,5,5,5,5,5,5,5,5],
+       [5,121,121,5,5,5,5,5,5,5],
+       [5,121,5,5,5,5,5,5,5,5],
+       [5,121,121,5,5,5,5,121,121,5],
+       [5,5,5,5,5,5,5,121,5,5],
+       [5,5,5,5,121,121,121,121,5,5],
+       [5,5,121,121,121,5,5,5,5,5],
+       [5,5,5,5,121,121,121,121,121,5],
+       [5,5,5,5,5,5,5,5,5,5]
+],
+     [
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+       [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+       [-1,-1,-1,-1,-1,-1,-1,-1,640,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]
+
+
+   ],
+
+  "solving": [
+    [640,1278,1280,644,584,645,5,1217,1218,586],
+    [527,1335,1337,-1,641,-1,-1,1274,1275,643],
+    [5,-1,-1,-1,-1,-1,-1,1488,1489,5],
+    [585,-1,-1,515,516,517,-1,1545,1547,526],
+    [642,-1,-1,572,1,574,-1,-1,-1,5],
+    [1219,1220,-1,629,630,631,1758,-1,583,5],
+    [1274,1275,-1,-1,-1,-1,1755,1759,640,1757],
+    [1488,1489,-1,-1,-1,-1,1754,-1,-1,5],
+      [1545,1547,-1,-1,-1,-1,1753,-1,-1,121],
+    [640,5,5,5,532,5,1752,5,5,5]
+],
+
+    "basic2":
+   [[
+[-1,1326,1327,-1,-1,-1,-1,-1,-1,-1],
+[-1,433,434,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,1331,1332,-1],
+     [-1,-1,-1,-1,-1,-1,-1,486,487,-1],
+     [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[1333,1334,-1,-1,-1,-1,-1,-1,-1,-1],
+[583,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]]
+
+  }
+
+}

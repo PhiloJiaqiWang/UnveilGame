@@ -1,0 +1,136 @@
+{ "position":{ "x": 110, "y": 240 },
+"notebook": [
+  "Lateral reading: is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Dr. Green is using these two potions: Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, helps with sleeping.",
+  "The noise is getting louder, and I can hear things like 'immortality'. I wonder if Dr. Green has developed something that can make people immortal."
+],
+"notehead":["What I learned...", 
+"What I learned...",
+"About Potions...",
+"What next..."],
+"bgm" : 0,
+  "clueList":[ {
+    "clueIdx": 1,
+    "imageSource": "",
+    "clueOccupyList":[2, 4, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"I have been in this room.",
+    "clueDetail":"This is Dr.Green's office.",
+    "clueType":"door",
+    "ifTrue": 0,
+    "sound" : "openDoor"
+
+  },
+    {
+      "clueIdx": 2,
+      "imageSource": "",
+      "clueOccupyList":[4, 4, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"This is the second door. The door is locked.",
+      "clueDetail":"I have the key to unlock it.",
+      "clueType":"opendoor",
+      "ifTrue": 0,
+      "sound" : "openDoor"
+
+    },
+    {
+      "clueIdx": 3,
+      "imageSource": "",
+      "clueOccupyList":[6, 4, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"This is the third door. The door is locked.",
+      "clueDetail":"The door is locked.",
+      "clueType":"door",
+      "ifTrue": 0,
+      "sound" : "lockedDoor"
+
+    },
+    {
+      "clueIdx": 4,
+      "imageSource": "",
+      "clueOccupyList":[4, 6.5, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"This is the room I just got out from. No need to go back.",
+      "clueDetail":"No need to go back.",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "lockedDoor"
+
+    },
+    {
+      "clueIdx": 5,
+      "imageSource": "",
+      "clueOccupyList":[0, 5, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"I can go upstairs through this staircase. I don't think it's safe to go there now, because I can hear people talking. I can only hear 'Dr.Green' 'immortality' 'secret'",
+      "clueDetail":"I don't think it's safe to go there now.",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "crowd"
+
+    }
+
+
+  ],
+  "hint": "The noise outside is even more intense. Now I have the key to the next door. I should go there and check it out. ",
+  "mapLis": {
+   "basic" : [
+     [
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[714,712,712,712,712,712,712,712,712,715],
+[770,887,887,887,887,887,887,887,887,770],
+[770,887,887,887,887,887,887,887,887,770],
+[1056,119,119,119,119,119,119,119,119,770],
+[770,119,119,119,119,119,119,119,119,770], 
+[771,712,712,712,119,712,712,712,712,772],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+],
+     [
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,922,923,923,923,923,924,-1,-1],
+[-1,-1,1036,1037,1037,1037,1037,1038,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]
+
+
+   ],
+
+  "solving": [
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [714,712,712,712,712,712,712,712,712,715],
+     [770,887,887,887,887,887,887,887,212,770],
+      [770,887,94,887,38,887,207,887,887,770],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,770],
+      [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+      [771,712,712,712,119,712,712,712,712,772],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+     [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+],
+
+    "basic2":
+   [[
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,507,508,508,508,509,-1,-1,-1],
+[-1,474,-1,474,-1,474,-1,474,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]]
+
+  }
+
+}

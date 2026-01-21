@@ -1,0 +1,131 @@
+ { "position":{ "x": 200, "y": 280 },
+ "notebook":["Am I in this Dr. Green's house? Why did he keep me in the basement?",
+ "I can hear noise from outside. It is not a good idea to go out since I don't know who are outside. I can go to one of the rooms to investigate."],
+ "notehead":["What happened...", "What next..."],
+ "page": 0,
+ "bgm" : 0,
+      "clueList":[ {
+        "clueIdx": 1,
+        "imageSource": "",
+        "clueOccupyList":[2, 4, 1, 1],
+        "tileSize" :"",
+        "clueInfo":"This door is unlocked.",
+        "clueDetail":"This is a door",
+        "clueType":"opendoor",
+        "ifTrue": 0,
+        "sound" : "openDoor"
+        
+      },
+        {
+          "clueIdx": 2,
+          "imageSource": "",
+          "clueOccupyList":[4, 4, 1, 1],
+          "tileSize" :"",
+          "clueInfo":"This is the second door. The door is locked.",
+          "clueDetail":"The door is locked.",
+          "clueType":"door",
+          "ifTrue": 0,
+          "sound" : "lockedDoor"
+
+        },
+        {
+          "clueIdx": 3,
+          "imageSource": "",
+          "clueOccupyList":[6, 4, 1, 1],
+          "tileSize" :"",
+          "clueInfo":"This is the third door. The door is locked.",
+          "clueDetail":"The door is locked.",
+          "clueType":"door",
+          "ifTrue": 0,
+          "sound" : "lockedDoor"
+
+        },
+        {
+          "clueIdx": 4,
+          "imageSource": "",
+          "clueOccupyList":[4, 6.5, 1, 1],
+          "tileSize" :"",
+          "clueInfo":"This is the room I just got out from. No need to go back.",
+          "clueDetail":"No need to go back.",
+          "clueType":"plain",
+          "ifTrue": 0,
+          "sound" : "lockedDoor"
+
+        },
+        {
+          "clueIdx": 5,
+          "imageSource": "",
+          "clueOccupyList":[0, 5, 1, 1],
+          "tileSize" :"",
+          "clueInfo":"I can go upstairs through this staircase. I don't think it's safe to go there now, because I can hear people talking. I can only hear 'Dr.Green' 'secret'",
+          "clueDetail":"I don't think it's safe to go there now.",
+          "clueType":"plain",
+          "ifTrue": 0,
+          "sound" : "crowd"
+
+        }
+        
+     
+      ],
+      "hint": "It is a hallway with three doors. I can hear noise outside. It might not be a good idea to go out now. Maybe I can find something in those rooms to know what is happening.",
+      "mapLis": {
+       "basic" : [
+         [
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+  [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [714,712,712,712,712,712,712,712,712,715],
+   [770,887,887,887,887,887,887,887,887,770],
+    [770,887,887,887,887,887,887,887,887,770],
+    [1056,119,119,119,119,119,119,119,119,770],
+    [770,119,119,119,119,119,119,119,119,770], 
+    [771,712,712,712,119,712,712,712,712,772],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+  ],
+         [
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,922,923,923,923,923,924,-1,-1],
+    [-1,-1,1036,1037,1037,1037,1037,1038,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+  ]
+         
+         
+       ],
+
+      "solving": [
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+  [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [714,712,712,712,712,712,712,712,712,715],
+   [770,887,887,887,887,887,887,887,212,770],
+    [770,887,35,887,38,887,207,887,887,770],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+    [771,712,712,712,119,712,712,712,712,772],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+  ],
+       
+        "basic2":
+       [[
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,507,508,508,508,509,-1,-1,-1],
+    [-1,474,-1,474,-1,474,-1,474,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+  ]]
+        
+      }
+
+    }
+  

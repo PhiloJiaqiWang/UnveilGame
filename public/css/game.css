@@ -1,0 +1,299 @@
+body, html {
+  font-family: 'Roboto'; 
+  font-size:30px;
+  background: #091135;
+  cursor: url("../images/mouse-style.png"), auto;
+  height: 96%;
+  margin: 0;
+}
+
+.game {
+  width: 500px;
+  height:500px;
+  margin: 2% 2% 0 2%;
+  background: white;
+  float: left;
+}
+
+.instruction {
+  width: 40%;
+  height: 10%;
+  margin: 1% 1% 0 3%;
+  float: left;
+  text-align: right;
+  color: white;
+  overflow: hidden;
+}
+
+p{
+  margin:0;
+}
+
+.backpack {
+  width: 48%;
+  height: 10%;
+  margin: 2% 1% 0 3%;
+  float: left;
+}
+
+.score {
+  width: 40%;
+  height: 20%;
+  margin: 2% 1% 0 3%;
+  background: #e33c5a;
+  float: left;
+}
+
+.clues {
+  padding: 2%;
+  width: 600px;
+  height: 200px;
+  margin: 2% 1% 0 3%;
+  background: #3370b9;
+  float: left;
+  color: white;
+  overflow-y: scroll;
+}
+
+.interaction {
+  padding: 2%;
+  width: 600px;
+  height: 120px;
+  margin: 2% 1% 0 3%;
+  background: #e33c5a;
+  float: left;
+  color: white;
+  text-align: center;
+  
+}
+
+.clue {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #e33c5a;
+  background: rgba(227, 60, 90, 0.7);
+  float: right;
+  
+}
+
+.clue:hover img {
+  transform: scale(1.3);
+}
+
+.notebook {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #e33c5a;
+  background: rgba(227, 60, 90, 0.7);
+  float: right;
+  
+}
+
+.credit {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  float: right;
+  font-family: 'Press Start 2P', cursive;
+  color: #3370b9;
+  font-size: 10px;
+}
+.credit:hover {
+  cursor: url("../images/mouse-pointer.png"),auto;
+}
+
+
+
+.notebook:hover{
+  background: rgba(227, 60, 90, 1);
+  cursor: url("../images/mouse-pointer.png"),auto;
+
+}
+
+.clue:hover {
+  background: rgba(227, 60, 90, 1);
+  cursor: url("../images/mouse-pointer.png"),auto;
+}
+
+.round_button {
+  float: left;
+  position: relative;
+  border: 1px solid #e33c5a;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 50px;
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  /* Old Firefox */
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+  cursor: url("../images/mouse-style.png"), auto;
+  background-color: rgba(250, 60, 90, 1);
+  color: white;
+  outline: none;
+  left: 20%;
+  bottom: 0;
+}
+
+.round_button:hover {
+  color: white;
+  background: rgba(227, 60, 90, 1);
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+  cursor: url("../images/mouse-pointer.png"),auto;
+}
+
+.database_button {
+  float: left;
+  position: relative;
+  border: 1px solid #e33c5a;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  height: 50px;
+  margin: 10px;
+  /* Old Firefox */
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+  cursor: url("../images/mouse-style.png"), auto;
+  background-color: rgba(250, 60, 90, 1);
+  color: white;
+  outline: none;
+  left: -80%;
+}
+
+.database_button:hover {
+  color: white;
+  background: rgba(227, 60, 90, 1);
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.pass {
+  float: left;
+  position: relative;
+ border: 2px solid #e8e8e8;
+ padding: 5px;
+ border-radius: 10px;
+ background-color: #3370b9;
+ font-size: 32px;
+  width: 150px;
+font-family: 'Press Start 2P', cursive;
+ font-weight: bold;
+ text-align: center;
+  color: #e8e8e8;
+  left: 25%;
+}
+
+.pass:focus {
+ outline-color: white;
+ background-color: #212121;
+ color: #e8e8e8;
+ box-shadow: 5px 5px #888888;
+}
+
+.pass_button {
+  float: left;
+  position: relative;
+  border: 1px solid #3370b9;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  height: 50px;
+  /* Old Firefox */
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+  cursor: url("../images/mouse-style.png"), auto;
+  background-color: #3370b9;
+  color: white;
+  outline: none;
+  left:30%;
+  top: -40px;
+}
+
+.pass_button:hover {
+  color: white;
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+  cursor: url("../images/mouse-pointer.png"),auto;
+}
+
+.round_button_throw {
+  float: left;
+  position: relative;
+  border: 1px solid #e33c5a;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 50px;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  /* Old Firefox */
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+  cursor: url("../images/mouse-style.png"), auto;
+  background-color: rgba(250, 60, 90, 1);
+  color: white;
+  outline: none;
+  left: 20%;
+  bottom: 0;
+}
+
+.round_button_throw:hover {
+  color: white;
+  background: rgba(227, 60, 90, 1);
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+  cursor: url("../images/mouse-pointer.png"),auto;
+}
+
+.login {
+  float: left;
+  position: relative;
+ border: 2px solid #e8e8e8;
+ padding: 1px;
+ border-radius: 10px;
+ background-color: #3370b9;
+ font-size: 18px;
+  width: 150px;
+font-family: 'Press Start 2P', cursive;
+ font-weight: bold;
+ text-align: center;
+  color: #e8e8e8;
+  left: 25%;
+}
+
+.login:focus {
+ outline-color: white;
+ background-color: #212121;
+ color: #e8e8e8;
+ box-shadow: 5px 5px #888888;
+}
+
+.page {
+  width: 100px;
+  height:50px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  color: #c7804a;
+  border-radius: 10px;
+  cursor: url("../images/mouse-style.png"), auto;
+  background-color: #f4ddcb;
+  outline: none;
+}
+
+.page:hover {
+  background-color: #dbc1ad;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+  cursor: url("../images/mouse-pointer.png"),auto;
+}

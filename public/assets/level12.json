@@ -1,0 +1,142 @@
+{ "position":{ "x": 225, "y": 400 },
+"notebook": [
+  "I will talk to this lady first.",
+  "Lateral reading: is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Source evaluation: Look to see if someone else has already fact-checked the claim. Go to the original source to understand the trustworthiness of the information.",
+  "Time Lines: Truth is always changing. Consider the publication date and whether the information is up-to-date and relevant now.",
+  "Dr. Green is using these two potions - Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, for aiding sleep.",
+  "Dr. Green is staying here with his daughter for sabbatical. His daughter's birthday is on 09/05. It seems there is something wrong with his daughter though...",
+  "I think I know what happened. Alina may have insomnia, and Dr. Green developed the cure.",
+  "Ms. White wants me to interview those villagers and find out why they believe Dr. Green has the immortality portion."
+],
+"notehead":["What next...", 
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"About Potions...",
+"About Dr. Green...",
+"About Alina...",
+"About Interview..."
+],
+"bgm" : 2,
+  "clueList":[ 
+  
+  {
+    "clueIdx": 1,
+    "imageSource": "",
+    "clueOccupyList":[8, 6, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"There is a bag of mushroom.",
+    "clueDetail":"The label on the bag says it's from 'Mr. Mustard's business'.",
+    "clueType":"plain",
+    "ifTrue": 0,
+    "sound" : "mushroom"
+
+  },
+  {
+    "clueIdx": 2,
+    "imageSource": "",
+    "clueOccupyList":[7, 4, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"hello",
+    "clueDetail":{
+        "Where&nbsp;did&nbsp;you&nbsp;hear&nbsp;of&nbsp;the&nbsp;rumor?": "I heard of it from Mr. Brown. He says that Dr. Green has developed the immortality portion.",
+        "Did&nbsp;you&nbsp;tell&nbsp;anyone&nbsp;else?":"Yes I passed it down to Mr. Teal. I mean, Mr. Brown seems very sure about it. I have no reason not to believe it and I did not think much on whether it is true or not.",
+        "Can&nbsp;I&nbsp;use&nbsp;your&nbsp;testimony?": "I can write it down for you and you can use it in the news. But before that, can you help me with one thing?",
+        "What&nbsp;is&nbsp;it?" : "Can you help me avoid this next time? How could I possibly know there is anything wrong?",
+        "Well,I&nbsp;can&nbsp;try." : "goIntoNext();"
+      },
+      "clueType":"dialogue",
+      "ifTrue": 0,
+      "sound" : "hello"
+
+  },
+  {
+    "clueIdx": 3,
+    "imageSource": "",
+    "clueOccupyList":[4,10,1,2],
+    "tileSize" :"",
+    "clueInfo":"This is the way going out.",
+    "clueDetail":"I need to get the information first for Ms. White.",
+    "clueType":"door",
+    "ifTrue": 0,
+    "sound" : "lockedDoor"
+
+  }
+
+
+  ],
+  "hint": "The lady invites me in. I should probably talk to her first.",
+  "mapLis": {
+    "basic" : [
+        [
+            [714,712,712,712,712,712,712,712,712,715],
+            [770,1437,1438,1438,1438,1438,1438,1438,1439,770],
+            [770,1494,1495,1495,1495,1495,1495,1495,1496,770],
+            [770,121,121,121,121,121,121,121,121,770], 
+            [770,121,121,121,121,121,121,121,121,770],
+            [770,121,121,121,121,121,121,121,121,770],     
+         [770,121,121,121,121,121,121,121,121,770],
+         [770,121,121,121,121,121,121,121,121,770],
+         [-1,-1,-1,-1,121,121,-1,-1,-1,-1],
+        [-1,-1,-1,-1,121,121,-1,-1,-1,-1]   ],
+        [
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,751,752,752,753,-1,-1,-1,-1,-1],
+   [-1,808,809,809,810,-1,-1,-1,-1,-1],
+   [-1,865,866,866,867,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+   ]
+   
+   
+      ],
+   
+     "solving": [
+   [714,712,712,712,712,712,712,712,712,715],
+   [770,43,1438,43,1438,104,145,202,259,770],
+   [770,357,358,359,1495,1495,30,28,29,770],
+   [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+   [770,135,361,362,136,-1,-1,1759,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,141,770],
+    [771,712,712,715,-1,-1,714,712,712,772],
+    [-1,-1,-1,770,-1,-1,770,-1,-1,-1],
+   [-1,-1,-1,770,-1,-1,770,-1,-1,-1]  
+   ],
+       "unlocked":
+       [
+        [714,712,712,712,712,712,712,712,712,715],
+   [770,43,1438,43,1438,104,145,202,259,770],
+   [770,357,358,359,1495,1495,30,28,29,770],
+   [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+   [770,135,361,362,136,-1,-1,1759,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,141,770],
+    [771,712,712,715,-1,-1,714,712,712,772],
+    [-1,-1,-1,770,-1,-1,770,-1,-1,-1],
+   [-1,-1,-1,770,-1,-1,770,-1,-1,-1]  
+   ],
+    
+       "basic2":
+      [[
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,910,909,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+   ]]
+  }
+
+}

@@ -1,0 +1,149 @@
+{ "position":{ "x": 300, "y": 260 },
+"notebook":["Lateral reading: is the act of evaluating the credibility of a source by comparing it with other sources. ",
+"Cross-referencing involves comparing information from the original source with information from other sources.",
+"Source evaluation: Look to see if someone else has already fact-checked the claim. Go to the original source to understand the trustworthiness of the information.",
+"Time Lines: Truth is always changing. consider the publication date and whether the information is up-to-date and relevant now.",
+"Dr. Green is using these two portions - Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, help sleeping.",
+"Dr.Green is staying here with his daughter for sabbatical. His daughter's birthday is on 09/05. It seems there is something wrong with his daughter though...", 
+"I think I know what had happened. Alina may have the insomnia disease, and Dr.Green developed the cure.", 
+"Somehow the villagers think he has the immortality portion. I should go outside now and explain it to them."],
+"notehead":["What I learned...", 
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"About Potions...",
+"About Dr. Green...",
+"What happened...",
+"What next..."
+],
+"bgm" : 0,
+  "clueList":[ {
+    "clueIdx": 1,
+    "imageSource": "",
+    "clueOccupyList":[2, 4, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"I have been in this room.",
+    "clueDetail":"This is Dr.Green's office.",
+    "clueType":"plain",
+    "ifTrue": 0,
+    "sound" : "openDoor"
+    
+
+  },
+    {
+      "clueIdx": 2,
+      "imageSource": "",
+      "clueOccupyList":[4, 4, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"I have been in this room.",
+      "clueDetail":"This seems to be Dr.Green's bedroom.",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "openDoor"
+      
+
+    },
+    {
+      "clueIdx": 3,
+      "imageSource": "",
+      "clueOccupyList":[6, 4, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"I have been in this room.",
+      "clueDetail":"This seems to be Dr.green's daughter's room.",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "openDoor"
+      
+
+    },
+    {
+      "clueIdx": 4,
+      "imageSource": "",
+      "clueOccupyList":[4, 7, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"This is the room I just got out from. No need to go back.",
+      "clueDetail":"No need to go back.",
+      "clueType":"plain",
+      "ifTrue": 0,
+      "sound" : "openDoor"
+      
+
+    },
+    {
+      "clueIdx": 5,
+      "imageSource": "",
+      "clueOccupyList":[0, 5, 1, 1],
+      "tileSize" :"",
+      "clueInfo":"I can go upstairs through this staircase. With the pages I discovered in Alina's room, I should be able to talk with them.",
+      "clueDetail":"",
+      "clueType":"opendoor",
+      "ifTrue": 0,
+      "sound" : "crowd"
+
+
+    }
+
+
+  ],
+
+  "hint": "Now I have got the report, I can go out and see what is going on.",
+  "mapLis": {
+   "basic" : [
+     [
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[714,712,712,712,712,712,712,712,712,715],
+[770,887,887,887,887,887,887,887,887,770],
+[770,887,887,887,887,887,887,887,887,770],
+[1056,119,119,119,119,119,119,119,119,770],
+[770,119,119,119,119,119,119,119,119,770], 
+[771,712,712,712,119,712,712,712,712,772],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+],
+     [
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,922,923,923,923,923,924,-1,-1],
+[-1,-1,1036,1037,1037,1037,1037,1038,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]
+
+
+   ],
+
+  "solving": [
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [714,712,712,712,712,712,712,712,712,715],
+     [770,887,887,887,887,887,887,887,212,770],
+      [770,887,94,887,94,887,208,887,887,770],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,770],
+      [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+      [771,712,712,712,119,712,712,712,712,772],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+     [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+],
+
+    "basic2":
+   [[
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,507,508,508,508,509,-1,-1,-1],
+[-1,474,-1,474,-1,474,-1,474,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]]
+
+  }
+
+}

@@ -1,0 +1,217 @@
+{ "position":{ "x": 320, "y": 270 },
+"notebook": [
+  "I need to find some kind of proof to show the lady's vulnerability to fake news.",
+  "Lateral reading: is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Source evaluation: Look to see if someone else has already fact-checked the claim. Go to the original source to understand the trustworthiness of the information.",
+  "Time Lines: Truth is always changing. Consider the publication date and whether the information is up-to-date and relevant now.",
+  "Dr. Green is using these two potions - Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, for aiding sleep.",
+  "Dr. Green is staying here with his daughter for sabbatical. His daughter's birthday is on 09/05. It seems there is something wrong with his daughter though...",
+  "I think I know what happened. Alina may have the insomnia disease, and Dr. Green developed the cure, which is a combination of Lifespring and Infinity.",
+  "Ms. White wants me to interview those villagers and find out why they believe Dr. Green has the immortality portion."
+],
+"notehead":["What next...", 
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"About Potions...",
+"About Dr. Green...",
+"About Alina...",
+"About Interview..."
+],
+"bgm" : 2,
+  "clueList":[ 
+  
+  {
+    "clueIdx": 1,
+    "imageSource": "./images/mushroom.png",
+    "clueOccupyList":[8, 6, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"There is a bag of mushroom. The label on the bag says it's from 'Mr. Mustard's business'.",
+    "clueDetail":"The mushrooms reminds me of something but I can't remember..",
+    "clueType":"clue",
+    "ifTrue": 0,
+    "sound" : "mushroom"
+
+  },
+  {
+    "clueIdx": 2,
+    "imageSource": "",
+    "clueOccupyList":[7, 4, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"Why would I trust it so easily?",
+    "clueDetail":"A: You have a tendency of believing in emotional appeal information. <br>B: You need to be careful of confirmation bias.<br>C: You have political or ideological motivations<br>",
+    "clueType":"chest",
+    "ifTrue": 0,
+    "sound" : "hello"
+
+  },
+  {
+    "clueIdx": 3,
+    "imageSource": "",
+    "clueOccupyList":[4,9.5,2,1],
+    "tileSize" :"",
+    "clueInfo":"This is the way going out.",
+    "clueDetail":"I need to get the information first for Ms. White.",
+    "clueType":"door",
+    "ifTrue": 0,
+    "sound" : "lockedDoor"
+
+  },
+  {
+    "clueIdx": 4,
+    "imageSource": "./images/secretNote.png",
+    "clueOccupyList":[-1, -1, -1, -1],
+    "tileSize" :"",
+    "clueInfo":"You got the note of the testimony.",
+    "clueDetail":"This is the note.",
+    "clueType":"key",
+    "ifTrue": 0,
+    "sound" : "testimony"
+    
+  },
+  {
+    "clueIdx": 5,
+    "imageSource": "./images/scroll1.png",
+    "clueOccupyList":[1, 2, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"There is a bunch of newspaper clippings. The lady might read them and really find them useful.",
+    "clueDetail":"《Heartfelt Triumph: Overcoming Adversity in the Battle Against Cancer》《Tears of Joy: Miracle Recovery After a Life-Threatening Illness》《Passionate Pleas: Celebrities Speak Out on the Crisis You Can't Ignore》.",
+    "clueType":"clue",
+    "ifTrue": 1,
+    "sound" : "clue_page"
+    
+  },
+  {
+    "clueIdx": 6,
+    "imageSource": "./images/food.png",
+    "clueOccupyList":[1, 6, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"A feast!",
+    "clueDetail":"It smells so good.",
+    "clueType":"clue",
+    "ifTrue": 0,
+    "sound" : "plate"
+    
+  },
+  {
+    "clueIdx": 7,
+    "imageSource": "./images/scroll2.png",
+    "clueOccupyList":[3, 2, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"There is some newspaper. They look like new.",
+    "clueDetail":"《Public Health Update: Vaccination Campaign Targets Flu Season》《Government Initiatives to Improve Mental Health Services》《Physical Activity Guidelines Updated for Optimal Health》.",
+    "clueType":"clue",
+    "ifTrue": 0,
+    "sound" : "clue_page"
+    
+  },
+  {
+    "clueIdx": 8,
+    "imageSource": "",
+    "clueOccupyList":[7, 2, 1.4, 1.4],
+    "tileSize" :"",
+    "clueInfo":"The kitchen.",
+    "clueDetail":"I poured myself a glass of water and drank it.",
+    "clueType":"plain",
+    "ifTrue": 0,
+    "sound" : "drink"
+    
+  }
+
+
+  ],
+  "key": {
+    "Q": "",
+    "True": "A",
+    "Right":"The lady looks at you and nodded. Maybe... she says. You got the lady's testimony.",
+    "Wrong":"The lady doesn't seem to be convinced. Maybe I'll need to show her some evidence.",
+    "Type":"key",
+    "sound" : "correct"
+  },
+  "hint": "The lady wants me to help her avoid misinformation next time. Maybe it would help if I can tell her why she would trust those information so easily.",
+  "mapLis": {
+    "basic" : [
+        [
+            [714,712,712,712,712,712,712,712,712,715],
+            [770,1437,1438,1438,1438,1438,1438,1438,1439,770],
+            [770,1494,1495,1495,1495,1495,1495,1495,1496,770],
+            [770,121,121,121,121,121,121,121,121,770], 
+            [770,121,121,121,121,121,121,121,121,770],
+            [770,121,121,121,121,121,121,121,121,770],     
+         [770,121,121,121,121,121,121,121,121,770],
+         [770,121,121,121,121,121,121,121,121,770],
+         [-1,-1,-1,-1,121,121,-1,-1,-1,-1],
+        [-1,-1,-1,-1,121,121,-1,-1,-1,-1]   ],
+        [
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,751,752,752,753,-1,-1,-1,-1,-1],
+   [-1,808,809,809,810,-1,-1,-1,-1,-1],
+   [-1,865,866,866,867,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+   ]
+   
+   
+      ],
+   
+     "solving": [
+   [714,712,712,712,712,712,712,712,712,715],
+   [770,43,1438,43,1438,104,145,202,259,770],
+   [770,357,358,359,1495,1495,30,28,29,770],
+   [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+   [770,135,361,362,136,-1,-1,1759,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,141,770],
+    [771,712,712,715,-1,-1,714,712,712,772],
+    [-1,-1,-1,770,-1,-1,770,-1,-1,-1],
+   [-1,-1,-1,770,-1,-1,770,-1,-1,-1]  
+   ],
+       "unlocked":
+       [
+        [714,712,712,712,712,712,712,712,712,715],
+   [770,43,1438,43,1438,104,145,202,259,770],
+   [770,357,358,359,1495,1495,30,28,29,770],
+   [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+   [770,135,361,362,136,-1,-1,1759,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,141,770],
+    [771,712,712,715,-1,-1,714,712,712,772],
+    [-1,-1,-1,770,-1,-1,770,-1,-1,-1],
+   [-1,-1,-1,770,-1,-1,770,-1,-1,-1]  
+   ],
+   "solved":
+   [
+    [714,712,712,712,712,712,712,712,712,715],
+[770,43,1438,43,1438,104,145,202,259,770],
+[770,357,358,359,1495,1495,30,28,29,770],
+[770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+[770,135,361,362,136,-1,-1,1759,-1,770],
+[770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+[770,-1,-1,-1,-1,-1,-1,-1,141,770],
+[771,712,712,715,-1,-1,714,712,712,772],
+[-1,-1,-1,770,-1,-1,770,-1,-1,-1],
+[-1,-1,-1,770,-1,-1,770,-1,-1,-1]  
+],
+    
+       "basic2":
+      [[
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,910,909,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+   ]]
+  }
+
+}

@@ -1,0 +1,158 @@
+{ "position":{ "x": 130, "y": 150 },
+"notebook": [
+  "I think I should go talk to the villager.",
+  "Ms. Crimson says she heard the rumor from Mr. Brown and told it to Mr. Teal.",
+  "Misinformation often leverages emotions to capture attention and generate strong reactions. Emotions can override critical thinking.",
+  "Lateral reading: is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Source evaluation: Look to see if someone else has already fact-checked the claim. Go to the original source to understand the trustworthiness of the information.",
+  "Time Lines: Truth is always changing. Consider the publication date and whether the information is up-to-date and relevant now.",
+  "Dr. Green is using these two portions - Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, for aiding sleep.",
+  "Dr. Green is staying here with his daughter for sabbatical. His daughter's birthday is on 09/05. It seems there is something wrong with his daughter though...",
+  "I think I know what happened. Alina may have the insomnia disease, and Dr. Green developed the cure.",
+  "Ms. White wants me to interview those villagers and find out why they believe Dr. Green has the immortality portion."
+],
+"notehead":["What next...", 
+"About the rumor...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"About Potions...",
+"About Dr. Green...",
+"About Alina...",
+"About Interview..."
+],
+"bgm" : 2,
+  "clueList":[  {
+    "clueIdx": 1,
+    "imageSource": "./images/mushroom.png",
+    "clueOccupyList":[1, 7.5, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"There is a bag of mushroom. The label on the bag says it's from 'Mr. Mustard's business'.",
+    "clueDetail":"The mushrooms reminds me of something but I can't remember..",
+    "clueType":"clue",
+    "ifTrue": 0,
+    "sound" : "mushroom"
+
+  },
+  {
+    "clueIdx": 2,
+    "imageSource": "",
+    "clueOccupyList":[4, 5, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"hello",
+    "clueDetail":{
+        "Where&nbsp;did&nbsp;you&nbsp;hear&nbsp;of&nbsp;the&nbsp;rumor?": "I heard from Ms. Crimson. I am not silly! This sounds ridiculous, but it is better to be safe than be sorry, right? I did hear this disease about the insomnia plague.",
+        "Did&nbsp;you&nbsp;tell&nbsp;anyone&nbsp;else?":"Yes I passed it around.",
+        "Can&nbsp;I&nbsp;use&nbsp;your&nbsp;testimony?": "Well, no. I did a very normal thing here, and unless you can prove that I did not do it right, I refuse to let you use my words.",
+        "Okay!." : "goIntoNext();"
+      },
+      "clueType":"dialogue",
+      "ifTrue": 0,
+      "sound" : "what"
+
+  },
+  {
+    "clueIdx": 3,
+    "imageSource": "",
+    "clueOccupyList":[2,2,1,2],
+    "tileSize" :"",
+    "clueInfo":"This is the way going out.",
+    "clueDetail":"I need to get the information first for Ms. White.",
+    "clueType":"door",
+    "ifTrue": 0,
+    "sound" : "lockedDoor"
+
+  }
+
+
+
+  ],
+  "hint": "I should probably talk to Mr. Teal.",
+  "mapLis": {
+    "basic" : [
+        [
+            [714,712,712,712,712,712,712,712,712,715],
+            [770,1440,1432,1441,1432,1441,1432,1441,1433,770],
+            [770,1488,1498,1489,1498,1489,1498,1489,1499,770],
+   [770,122,122,122,122,122,122,122,122,770],     
+   [770,122,122,122,122,122,122,122,122,770],     
+   [770,122,122,122,122,711,712,712,712,773],
+    [770,122,122,122,122,883,882,882,882,770],
+   [770,122,122,122,122,122,122,122,122,770],     
+   [770,122,122,122,122,122,122,122,122,770],     
+   [771,712,712,712,712,712,712,712,712,772]
+   ],
+        [
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,1028,1029,1030,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+   ]
+   
+   
+      ],
+   
+      "solving": [
+        [714,712,712,712,712,712,712,712,712,715],
+        [770,1440,1432,1441,1432,46,47,46,568,770],
+        [770,841,433,434,417,413,412,356,625,770],
+        [770,-1,-1,-1,-1,-1,-1,-1,247,770], 
+        [770,-1,-1,-1,-1,-1,-1,-1,253,770],
+         [770,611,-1,-1,1756,711,712,712,712,773],
+         [770,-1,-1,-1,-1,365,479,601,841,770],
+        [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+        [770,141,295,353,-1,-1,-1,-1,71,770],
+        [771,712,712,712,712,712,712,712,712,772]
+        ],
+       "unlocked":
+       [
+        [714,712,712,712,712,712,712,712,712,715],
+   [770,1440,1432,1441,1432,46,47,46,568,770],
+   [770,841,433,434,417,413,412,356,625,770],
+   [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+   [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,611,-1,-1,1756,711,712,712,712,773],
+    [770,-1,-1,-1,-1,365,479,601,841,770],
+   [770,-1,247,-1,-1,-1,-1,-1,-1,770],
+   [770,141,253,-1,-1,-1,-1,-1,71,770],
+   [771,712,712,712,712,712,712,712,712,772]
+   ],
+   "solved":
+   [
+    [714,712,712,712,712,712,712,712,712,715],
+   [770,1440,1432,1441,1432,46,47,46,568,770],
+   [770,841,490,491,417,413,412,356,625,770],
+   [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+   [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,611,-1,-1,1756,711,712,712,712,773],
+    [770,-1,-1,-1,-1,365,479,601,841,770],
+   [770,-1,247,-1,-1,-1,-1,-1,-1,770],
+   [770,141,253,-1,-1,-1,-1,-1,71,770],
+   [771,712,712,712,712,712,712,712,712,772]
+],
+    
+       "basic2":
+      [[
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,600,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,904,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+        [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+   ]]
+  }
+
+}

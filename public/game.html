@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>UNVEIL</title>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="css/game.css">
+<script src="./lib/p5.min.js"></script>
+<script src="./lib/p5.sound.js"></script>
+<script src="./lib/tileset.js"></script>
+<script src="./lib/entity.js"></script>
+<script src="./lib/clue.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="images/secretNote.png">
+<link rel="preload" as="image" href="images/AlinaDiary.png">
+<link rel="preload" as="image" href="images/blueBottle.png">
+<link rel="preload" as="image" href="images/chrysanths.png">
+<link rel="preload" as="image" href="images/computer.png">
+<link rel="preload" as="image" href="images/food.png">
+<link rel="preload" as="image" href="images/id.png">
+<link rel="preload" as="image" href="images/lostBook.png">
+<link rel="preload" as="image" href="images/mouse-pointer.png">
+<link rel="preload" as="image" href="images/mushroom.png">
+<link rel="preload" as="image" href="images/photo.png">
+<link rel="preload" as="image" href="images/redBottle.png">
+<link rel="preload" as="image" href="images/rustyKey.png">
+<link rel="preload" as="image" href="images/scroll1.png">
+<link rel="preload" as="image" href="images/scroll2.png">
+<link rel="preload" as="image" href="images/sunflower.png">
+<link rel="preload" as="image" href="assets/little_boy.png">
+<link rel="preload" as="image" href="images/notebook.png">
+<link rel="preload" as="image" href="images/openNote.png">
+<link rel="preload" as="image" href="images/musicon.png">
+<link rel="preload" as="image" href="images/musicoff.png">
+
+
+
+</head>
+<body>
+
+  <div class="game" id="myCanvas">
+  </div>
+
+
+  <div class="interaction">
+    <p id="interaction">
+
+    </p>
+    <input class="round_button" style="display:none;" id="yes" type="button" value="Yes" onclick="keepIt(this.id)">
+    <input class="round_button" style="display:none;" id="no" type="button" value="No" onclick="keepIt(this.id)">
+
+    <input class="round_button" style="display:none;width:50px" id="A" type="button" value="A" onclick="chestQ(this.id);">
+    <input class="round_button" style="display:none;width:50px" id="B" type="button" value="B" onclick="chestQ(this.id);">
+    <input class="round_button" style="display:none;width:50px" id="C" type="button" value="C" onclick="chestQ(this.id);">
+
+    <input class="round_button_throw" style="display:none;" id="throw" type="button" value="Throw It" onclick="throwItOut()">
+
+    <input class="round_button" style="display:none;" id="openIt" type="button" value="Open!" onclick="openIt()">
+ <input class="round_button" style="display:none;" id="enter" type="button" value="Enter!" onclick="enterIt()">
+    
+ 
+
+  </div>
+
+
+  <div class="clues">
+    <p id="clue">
+
+    </p>
+  </div>
+  
+  <div class="backpack" id="backpack">
+    <img src='images/mouse.png' width=35%></img>
+    <div class='credit' ><p onclick="window.open('credits.html', '_blank');" >CREDITS</p><br><p onclick="window.open('https://www.youtube.com/watch?v=aK7hqN1tSZg', '_blank');">TUTORIAL</p> </div>
+    <div class='credit'  onclick="musicOn()" id = "music"><img src='images/musicon.png' width=70%></img></div>
+    <div class='credit'></div>
+    <div class='notebook' onmouseover="hoverNotebook(this);" onmouseout="restoreOriginalStyle(this);" onclick="gotoNotebook()"><img src='images/notebook.png' width=100%></img></div>
+  </div>
+  <div class="instruction">
+
+  </div>
+  <script src="./game.js"></script>
+
+</body>
+
+</html>

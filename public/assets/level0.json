@@ -1,0 +1,204 @@
+{  "position":{ "x": 100, "y": 400 },
+    "notebook":["I woke up remembering nothing. I found a backpack, and inside  there was a notebook. I feel so hungry that I must eat something now.",
+    "There is food on the table. Maybe I can go and check it. On the carpet lay a note that might hold an important message."],
+    "notehead":["What happened...", "What next..."],
+    "bgm" : 0,
+      "clueList":[ {
+        "clueIdx": 1,
+        "imageSource": ".images/chest.png",
+        "clueOccupyList":[6, 8, 1, 1],
+        "tileSize" :"",
+        "clueInfo":"It's a chest. But before I investigate, I should find something to eat first. ",
+        "clueDetail":"",
+        "clueType":"plain",
+        "ifTrue": 0,
+        "sound" : "lockedChest"
+      },
+      {
+        "clueIdx": 2,
+        "imageSource": "./images/lostBook.png",
+        "clueOccupyList":[7, 2, 1, 1],
+        "tileSize" :"",
+        "clueInfo":"It's a bookshelf. You find a nutrition book.",
+        "clueDetail":"Chocolate Cake Nutrition Facts: 397.44 Calories, 30.56 Carbohydrates (g), 27.25 Fat (g), 8.68 Protein (g), 3.55 Fiber (g) <br> Croissant Nutrition Facts: 389.07 Calories, 31.43 Carbohydrates (g), 26.40 Fat (g), 5.01 Protein (g), 1.21 Fiber (g)",
+        "clueType":"clue",
+        "ifTrue": 0,
+        "sound" : "clue_page"
+      },
+     
+      {
+        "clueIdx": 3,
+        "imageSource": "",
+        "clueOccupyList":[5, 2, 1.5, 2],
+        "tileSize" :"",
+        "clueInfo": "The door is locked. But before I investigate, I should find something to eat first.",
+        "clueDetail":"I'm too hungry; I need to find something to eat first.",
+        "clueType":"plain",
+        "ifTrue": 0,
+        "sound" : "lockedDoor"
+        
+      },
+      {
+        "clueIdx": 4,
+        "imageSource": "./images/secretNote.png",
+        "clueOccupyList":[1, 2, 1, 1],
+        "tileSize" :"",
+        "clueInfo":"Something is burning. You saved a piece of paper from the ashes.",
+        "clueDetail":"Sometimes, the correct answer alone cannot open the chest. You need to have all the linked evidence fixed in the chest boxes. So make sure all the evidence is in your backpack!",
+        "clueType":"clue",
+        "ifTrue": 0,
+        "sound" : "clue_page"
+        
+      },
+      {
+        "clueIdx": 7,
+        "imageSource": "./images/scroll1.png",
+        "clueOccupyList":[3, 2, 1, 1],
+        "tileSize" :"",
+        "clueInfo":"It's a shelf. You find the ingredient lists for both foods.",
+        "clueDetail": "Croissant: 180g of water, 150g of butter, 5g of salt, 4g of high-sugar-resistant dry yeast, 30g of butter, 30g of granulated sugar, 8g of powdered milk, 75g of low-gluten flour. <br> Chocolate Cake: 120g of semi-sweet chocolate, egg white meringue with 3 about 90g, butter 60g, 20g of gluten flour, cocoa powder 30g, <u>egg yolks</u> at room temperature 3 about 60g, 150g of granulated sugar, light cream 50ml.",
+        "clueType":"clue",
+        "ifTrue": 1,
+        "sound" : "clue_page"
+        
+      },
+      {
+        "clueIdx": 8,
+        "imageSource": "",
+        "clueOccupyList":[1, 7.5, 1.5, 1],
+        "tileSize" :"",
+        "clueInfo":"It's a bed. But before I investigate, I should find something to eat first.", 
+        "clueDetail":"I'm too hungry; I need to find something to eat first.",
+        "clueType":"plain",
+        "ifTrue": 0,
+        "sound" : "soft"
+        
+      }, {
+        "clueIdx": 9,
+        "imageSource": "./images/secretNote.png",
+        "clueOccupyList":[3, 6, 1, 1],
+        "tileSize" :"",
+        "clueInfo":"There is a note on the carpet.", 
+        "clueDetail":"Mr. Butler,<br>This morning, I found that the hens in the henhouse have chicken fever. Please inform your staff to remove <u>all food containing eggs </u>from the house as soon as possible! For the next two days, just eat food that doesn't use eggs.<br>Thank you!<br>Lily.",
+        "clueType":"clue",
+        "ifTrue": 1,
+        "sound" : "clue_page"
+        
+      },
+      {
+        "clueIdx": 10,
+        "imageSource": "",
+        "clueOccupyList":[4, 4, 2, 2],
+        "tileSize" :"",
+        "clueInfo":"You find two loaves of bread on the table, one is a croissant and the other is a chocolate cake.", 
+        "clueDetail":"A: Croissant, because there is no chocolate inside.<br> B: Chocolate Cake, because there is no salt used.<br>C:Croissant, because there is no egg inside.",
+        "clueType":"chest",
+        "ifTrue": 0,
+        "sound" : "plate"
+        
+      }
+      
+      ],
+      "key": {
+        "Q": "Which one do you want to eat? And Why?",
+        "True": "C",
+        "Right":"You eat the croissant and feel your body regain its strength. A piece of paper is under the plate and it drops on the carpet.",
+        "Wrong":"Don't rush into decision. Make sure you have the right clues (both two of them) in your backpack.",
+        "Type":"speed"
+      },
+      "hint": "(I'm so hungry and really need to eat. Press Space when there is a small magnifying glass to investigate.)",
+      "mapLis": {
+       "basic" : [
+         [
+    [714,712,712,712,712,712,712,712,715],
+   [770,887,887,887,887,887,887,887,887,770],
+    [770,887,887,887,887,887,887,887,887,770],
+    [770,119,119,119,119,119,119,119,119,770],     
+    [770,119,119,119,119,119,119,119,119,770],
+     [770,119,119,119,119,119,119,119,119,770],
+     [770,119,119,119,119,119,119,119,119,770],
+   
+    [770,119,119,119,119,119,119,119,119,770],
+    [770,119,119,119,119,119,119,119,119,770], 
+    [771,712,712,712,712,712,712,712,712,772]
+  ],
+         [
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,751,752,752,753,-1,-1,-1],
+    [-1,-1,-1,808,809,809,810,-1,-1,-1],
+    [-1,-1,-1,865,866,866,867,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+  ]
+         
+         
+       ],
+
+      "solving": [
+    [714,712,712,712,712,712,712,712,712,715],
+   [770,887,887,887,165,166,166,167,887,770],
+    [770,13,887,357,359,429,430,842,422,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+     [770,-1,-1,135,361,362,136,-1,-1,770],
+     [770,-1,-1,-1,134,134,-1,-1,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,128,-1,-1,-1,-1,608,-1,-1,770],[771,712,712,712,712,712,712,712,712,772]
+  ],
+        "solved":
+          [
+    [714,712,712,712,712,712,712,712,712,715],
+   [770,887,887,887,165,166,166,167,887,770],
+    [770,13,887,357,359,486,487,842,422,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+     [770,-1,-1,135,361,362,136,-1,-1,770],
+     [770,-1,-1,-1,134,134,-1,-1,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,128,-1,-1,-1,-1,665,-1,-1,770],[771,712,712,712,712,712,712,712,712,772]
+  ],
+        "unlocked":
+        [
+    [714,712,712,712,712,712,712,712,712,715],
+   [770,887,887,887,165,166,166,167,887,770],
+    [770,13,887,357,359,429,430,842,422,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+    [770,-1,-1,-1,133,133,-1,-1,-1,770],
+     [770,-1,-1,135,361,362,136,-1,-1,770],
+     [770,-1,-1,-1,134,134,-1,-1,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,128,-1,-1,-1,-1,665,-1,-1,770],[771,712,712,712,712,712,712,712,712,772]
+  ],
+        "locked":
+        [
+    [714,712,712,712,712,712,712,712,712,715],
+   [770,887,887,887,165,166,166,167,887,770],
+    [770,13,887,357,359,429,430,842,422,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770], 
+    [770,-1,-1,-1,133,133,-1,-1,-1,770],
+     [770,-1,-1,135,361,362,136,-1,-1,770],
+     [770,-1,-1,-1,134,134,-1,-1,-1,770],
+    [770,-1,-1,-1,-1,-1,-1,-1,-1,770],
+    [770,128,-1,-1,-1,-1,665,-1,-1,770],[771,712,712,712,712,712,712,712,712,772]
+  ],
+        "basic2":
+       [[
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,1024,1025,-1,-1,-1,-1],
+    [-1,-1,-1,1766,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+  ]]
+        
+      }
+
+    }

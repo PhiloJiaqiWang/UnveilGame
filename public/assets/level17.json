@@ -1,0 +1,144 @@
+{ "position":{ "x": 100, "y": 100 },
+"notebook": [
+  "I think I should go give the testimony to Ms. White first, then visit the next villager.",
+  "Mr. Teal says he passed the rumor around.",
+  "Ms. Crimson says she heard the rumor from Mr. Brown and told it to Mr. Teal.",
+  "Believing in misinformation can be dangerous. We should prioritize accuracy, critical thinking, and responsible sharing.",
+  "Misinformation often leverages emotions to capture attention and generate strong reactions. Emotions can override critical thinking.",
+  "Lateral reading is the act of evaluating the credibility of a source by comparing it with other sources.",
+  "Cross-referencing involves comparing information from the original source with information from other sources.",
+  "Source evaluation: Look to see if someone else has already fact-checked the claim. Go to the original source to understand the trustworthiness of the information.",
+  "Time Lines: Truth is always changing. Consider the publication date and whether the information is up-to-date and relevant now.",
+  "Dr. Green is using these two portions - Infinity, Blue color, A25, used in beauty products; Lifespring, Pink color, A21, for aiding sleep.",
+  "Dr. Green is staying here with his daughter for sabbatical. His daughter's birthday is on 09/05. It seems there is something wrong with his daughter though...",
+  "I think I know what happened. Alina may have the insomnia disease, and Dr. Green developed the cure.",
+  "Ms. White wants me to interview those villagers and find out why they believe Dr. Green has the immortality portion."
+],
+"notehead":["What next...", 
+"About the rumor...",
+"About the rumor...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"What I learned...",
+"About Potions...",
+"About Dr. Green...",
+"About Alina...",
+"About Interview..."
+],
+"bgm" : 2,
+  "clueList":[ {
+    "clueIdx": 1,
+    "imageSource": "",
+    "clueOccupyList":[1, 1, 1, 2],
+    "tileSize" :"",
+    "clueInfo":"Mr.Teal lives here.",
+    "clueDetail":"I've got everything I need from him.",
+    "clueType":"plain",
+    "ifTrue": 0,
+    "sound" : "lockedDoor"
+
+  },
+  {
+    "clueIdx": 2,
+    "imageSource": "./images/secretNote.png",
+    "clueOccupyList":[6, 5, 1, 1],
+    "tileSize" :"",
+    "clueInfo":"Ms.White reads the testimony. She says:",
+    "clueDetail":"Hey, you know, believing in misinformation might seem like a safer option, but it can actually lead to serious problems. It's like taking a shortcut that could end up causing harm. We should prioritize accuracy, critical thinking, and responsible sharing, especially in our roles as journalists. It's not just about being safe; it's about being informed and making sure we contribute to reliable information in the long run.",
+    "clueType":"plain",
+    "ifTrue": 0,
+    "sound" : "white"
+
+  },
+  {
+    "clueIdx": 3,
+    "imageSource": "",
+    "clueOccupyList":[7, 4, 1, 2],
+    "tileSize" :"",
+    "clueInfo":"Ms. Crimson lives here.",
+    "clueDetail":"I've got everything I need from her.",
+    "clueType":"plain",
+    "ifTrue": 0,
+    "sound" : "lockedDoor"
+
+  },
+  {
+    "clueIdx": 4,
+    "imageSource": "",
+    "clueOccupyList":[2, 7, 1, 2],
+    "tileSize" :"",
+    "clueInfo":"This is the last house I need to check. I knocked the door and someone answered. The villager let me in.",
+    "clueDetail":"The villager let me in.",
+    "clueType":"opendoor",
+    "ifTrue": 0,
+    "sound" : "openDoor"
+
+  }
+ 
+
+
+  ],
+  "hint": "I'll give Ms. White the testimony before I go to next villager.",
+  "mapLis": {
+   "basic" : [
+     [
+[5,5,5,5,5,5,5,5,5,5],
+       [5,5,5,5,5,5,5,5,5,5],
+       [5,121,121,5,5,5,5,5,5,5],
+       [5,121,5,5,5,5,5,5,5,5],
+       [5,121,121,5,5,5,5,121,121,5],
+       [5,5,5,5,5,5,5,121,5,5],
+       [5,5,5,5,121,121,121,121,5,5],
+       [5,5,121,121,121,5,5,5,5,5],
+       [5,5,5,5,121,121,121,121,121,5],
+       [5,5,5,5,5,5,5,5,5,5]
+],
+     [
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+       [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+       [-1,-1,-1,-1,-1,-1,-1,-1,640,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]
+
+
+   ],
+
+  "solving": [
+    [640,1278,1280,644,584,645,5,1217,1218,586],
+    [527,1335,1337,-1,641,-1,-1,1274,1275,643],
+    [5,-1,-1,-1,-1,-1,-1,1488,1489,5],
+    [585,-1,-1,515,516,517,-1,1545,1547,526],
+    [642,-1,-1,572,1,574,-1,-1,-1,5],
+    [1219,1220,-1,629,630,631,1758,-1,583,5],
+    [1274,1275,-1,-1,-1,-1,-1,-1,640,5],
+    [1488,1489,-1,-1,-1,-1,-1,-1,-1,5],
+      [1545,1547,-1,-1,-1,-1,-1,-1,-1,121],
+    [640,5,5,5,532,5,5,5,5,5]
+],
+
+    "basic2":
+   [[
+[-1,1326,1327,-1,-1,-1,-1,-1,-1,-1],
+[-1,433,434,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,1331,1332,-1],
+     [-1,-1,-1,-1,-1,-1,-1,429,430,-1],
+     [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[1333,1334,-1,-1,-1,-1,-1,-1,-1,-1],
+[583,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+]]
+
+  }
+
+}
